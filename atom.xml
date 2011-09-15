@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Burnsoft iOS Blog</title>
+  <link href="http://www.burnsoft.co.uk/atom.xml" rel="self"/>
+  <link href="http://www.burnsoft.co.uk/"/>
+  <updated>2011-09-16T00:06:55+01:00</updated>
+  <id>http://www.burnsoft.co.uk/</id>
+  <author>
+    <name>Nik Burns</name>
+    
+  </author>
+
+  
+</feed>
