@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title>Burnsoft iOS Blog</title>
-  <link href="http://www.burnsoft.co.uk/atom.xml" rel="self"/>
-  <link href="http://www.burnsoft.co.uk/"/>
-  <updated>2011-09-16T00:12:49+01:00</updated>
-  <id>http://www.burnsoft.co.uk/</id>
+  <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
+  <link href="http://burnsoft.github.com/blog/"/>
+  <updated>2011-09-16T18:07:43+01:00</updated>
+  <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
     
