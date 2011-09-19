@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: Burnsoft iOS Blog
-subtitle: UK based iOS development and consultancu.
-author: Your Name
+url: http://burnsoft.github.com/blog
+title: iOS coder blog
+subtitle: code and general geekiness.
+author: Nik Burns
 simple_search: http://google.com/search
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
@@ -19,7 +19,7 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
+root: /blog
 permalink: /blog/:year/:month/:day/:title/
 source: source
 destination: public
@@ -55,7 +55,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: nikburns
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
@@ -75,7 +75,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: burnsoft
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-581486-4
