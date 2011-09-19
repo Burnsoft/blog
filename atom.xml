@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title>Burnsoft iOS Blog</title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2011-09-19T20:46:04+01:00</updated>
-  <id>http://yoursite.com/</id>
+  <title>iOS coder blog</title>
+  <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
+  <link href="http://burnsoft.github.com/blog/"/>
+  <updated>2011-09-19T21:03:44+01:00</updated>
+  <id>http://burnsoft.github.com/blog/</id>
   <author>
-    <name>Your Name</name>
+    <name>Nik Burns</name>
     
   </author>
 
