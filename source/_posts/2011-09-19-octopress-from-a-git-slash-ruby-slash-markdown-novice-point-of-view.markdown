@@ -66,5 +66,13 @@ So, this is how it works. In your repository folder :
 5. For number 4, `git checkout source`, `git add -A`, `git commit -m 'message'` & `git push origin source`
 6. Update your site with rake generate & rake deploy.
 
+---
 
+When you do the commits from the command line Git will prompt for username and password. I found this work around on 
+stackoverflow. Create a .netrc file in your user directory (cd~/) that contains:
 
+1. machine github.com
+2. login yourgithublogin
+3. password yourgithubpassword
+
+No more password prompts.
