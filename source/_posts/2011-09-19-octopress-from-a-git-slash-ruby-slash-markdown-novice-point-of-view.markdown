@@ -4,6 +4,7 @@ title: "Octopress From a Git/ruby/markdown Novice Point of View"
 date: 2011-09-19 23:10
 comments: true
 categories: [Github, octopress, ruby, markdown]
+published: false
 ---
 
 
