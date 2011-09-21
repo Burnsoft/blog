@@ -89,7 +89,7 @@ regularly to view open source projects but had never used as originally intended
 git process as having too steep a learning curve.</p>
 
 <p>Since I found out about Octopress last week, this has replaced my mediocre blog with something very elegant and also put me on the way to
-understanding and including git into my daily dev workflow.</p>
+understanding and including git into my daily development workflow.</p>
 
 <p>Create Github repository on github. I created a seperate blog repo for mine named &#8216;blog&#8217;</p>
 
@@ -130,7 +130,7 @@ git push origin master</p>
 </div><div class='line'>git push origin source</div></code></pre></td></tr></table></div></figure>
 
 
-<p>Edit _config.yml and change default value into yours. After finishing, then we doing Deploy.</p>
+<p>Edit _config.yml and change default value into yours. After finishing, then we deploy.</p>
 
 <figure role=code><div class="highlight"><table cellpadding="0" cellspacing="0"><tr><td class="gutter"><pre class="line-numbers"><span class='line'>1</span>
 <span class='line'>2</span>
@@ -142,29 +142,12 @@ git push origin master</p>
 </div><div class='line'>rake deploy</div></code></pre></td></tr></table></div></figure>
 
 
-<p>So, this is how it works. In your repository folder :</p>
-
-<ol>
-<li>Your repository folder is based on Source branch ( git checkout source and check on github.com source branch )</li>
-<li>public folder is your gh-pages branch</li>
-<li>source and sass folder is folder for working</li>
-<li>everytime you do change into source &amp; sass folder, don&#8217;t forget commit and push into Source folder</li>
-<li>For number 4, <code>git checkout source</code>, <code>git add -A</code>, <code>git commit -m 'message'</code> &amp; <code>git push origin source</code></li>
-<li>Update your site with rake generate &amp; rake deploy.</li>
-</ol>
-
-
-<hr />
-
-<p>When you do the commits from the command line Git will prompt for username and password. I found this work around on
+<p>When you do the commits from the command line Git will prompt for username and password. This gets annoying, so I found this work around on
 stackoverflow. Create a .netrc file in your user directory (cd~/) that contains:</p>
 
-<ol>
-<li>machine github.com</li>
-<li>login yourgithublogin</li>
-<li>password yourgithubpassword</li>
-</ol>
-
+<p><code>machine github.com</code><br/>
+<code>login yourgithublogin</code>  <br/>
+<code>password yourgithubpassword</code></p>
 
 <p>No more password prompts.</p>
 </div>

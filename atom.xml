@@ -4,7 +4,7 @@
   <title>iOS coder blog</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2011-09-21T21:12:13+01:00</updated>
+  <updated>2011-09-21T21:24:41+01:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -24,7 +24,7 @@ regularly to view open source projects but had never used as originally intended
 git process as having too steep a learning curve.&lt;/p&gt;
 
 &lt;p&gt;Since I found out about Octopress last week, this has replaced my mediocre blog with something very elegant and also put me on the way to
-understanding and including git into my daily dev workflow.&lt;/p&gt;
+understanding and including git into my daily development workflow.&lt;/p&gt;
 
 &lt;p&gt;Create Github repository on github. I created a seperate blog repo for mine named &amp;#8216;blog&amp;#8217;&lt;/p&gt;
 
@@ -65,7 +65,7 @@ git push origin master&lt;/p&gt;
 &lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;git push origin source&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
 
 
-&lt;p&gt;Edit _config.yml and change default value into yours. After finishing, then we doing Deploy.&lt;/p&gt;
+&lt;p&gt;Edit _config.yml and change default value into yours. After finishing, then we deploy.&lt;/p&gt;
 
 &lt;figure role=code&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre class=&quot;line-numbers&quot;&gt;&lt;span class=&#8217;line&#8217;&gt;1&lt;/span&gt;
 &lt;span class=&#8217;line&#8217;&gt;2&lt;/span&gt;
@@ -77,29 +77,12 @@ git push origin master&lt;/p&gt;
 &lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;rake deploy&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
 
 
-&lt;p&gt;So, this is how it works. In your repository folder :&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Your repository folder is based on Source branch ( git checkout source and check on github.com source branch )&lt;/li&gt;
-&lt;li&gt;public folder is your gh-pages branch&lt;/li&gt;
-&lt;li&gt;source and sass folder is folder for working&lt;/li&gt;
-&lt;li&gt;everytime you do change into source &amp;amp; sass folder, don&amp;#8217;t forget commit and push into Source folder&lt;/li&gt;
-&lt;li&gt;For number 4, &lt;code&gt;git checkout source&lt;/code&gt;, &lt;code&gt;git add -A&lt;/code&gt;, &lt;code&gt;git commit -m &#8216;message&#8217;&lt;/code&gt; &amp;amp; &lt;code&gt;git push origin source&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Update your site with rake generate &amp;amp; rake deploy.&lt;/li&gt;
-&lt;/ol&gt;
-
-
-&lt;hr /&gt;
-
-&lt;p&gt;When you do the commits from the command line Git will prompt for username and password. I found this work around on
+&lt;p&gt;When you do the commits from the command line Git will prompt for username and password. This gets annoying, so I found this work around on
 stackoverflow. Create a .netrc file in your user directory (cd~/) that contains:&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;machine github.com&lt;/li&gt;
-&lt;li&gt;login yourgithublogin&lt;/li&gt;
-&lt;li&gt;password yourgithubpassword&lt;/li&gt;
-&lt;/ol&gt;
-
+&lt;p&gt;&lt;code&gt;machine github.com&lt;/code&gt;&lt;br/&gt;
+&lt;code&gt;login yourgithublogin&lt;/code&gt;  &lt;br/&gt;
+&lt;code&gt;password yourgithubpassword&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;No more password prompts.&lt;/p&gt;
 </content>
