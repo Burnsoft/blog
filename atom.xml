@@ -4,7 +4,7 @@
   <title>iOS coder blog</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2011-09-21T22:42:15+01:00</updated>
+  <updated>2011-09-21T22:49:34+01:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -88,6 +88,8 @@ stackoverflow. Create a .netrc file in your user directory (cd~/) that contains:
 &lt;code&gt;password yourgithubpassword&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;No more password prompts.&lt;/p&gt;
+
+&lt;p&gt;find . -name *.DS_Store -type f -exec rm {} \;&lt;/p&gt;
 </content>
   </entry>
   
