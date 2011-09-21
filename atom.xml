@@ -4,7 +4,7 @@
   <title>iOS coder blog</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2011-09-21T21:58:07+01:00</updated>
+  <updated>2011-09-21T22:02:05+01:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -17,9 +17,9 @@
     <link href="http://burnsoft.github.com/blog/blog/2011/09/19/octopress-from-a-git-slash-ruby-slash-markdown-novice-point-of-view/"/>
     <updated>2011-09-19T23:10:00+01:00</updated>
     <id>http://burnsoft.github.com/blog/blog/2011/09/19/octopress-from-a-git-slash-ruby-slash-markdown-novice-point-of-view</id>
-    <content type="html">&lt;p&gt;-This is a work in progress, on site for testing purposes only
-Surround your pullquote like this {&amp;#8221; text to be quoted &amp;#8220;}
-Create Github repository on github. I created a seperate blog repo for mine named &amp;#8216;blog&amp;#8217;&lt;/p&gt;
+    <content type="html">&lt;p&gt;Surround your pullquote like this {&amp;#8221; text to be quoted &amp;#8220;}&lt;/p&gt;
+
+&lt;p&gt;Create Github repository on github. I created a seperate blog repo for mine named &amp;#8216;blog&amp;#8217;&lt;/p&gt;
 
 &lt;p&gt;Create a local copy of the octopress master: (I use terminal and create a directory on my desktop)
 (the below git command will fail if you dont have &lt;a href=&quot;http://git-scm.com/&quot;&gt;git installed&lt;/a&gt;)&lt;/p&gt;
