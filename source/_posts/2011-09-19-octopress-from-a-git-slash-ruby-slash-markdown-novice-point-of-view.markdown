@@ -17,7 +17,9 @@ Create Github repository on github. I created a seperate blog repo for mine name
 
 Create a local copy of the octopress master: (I use terminal and create a directory on my desktop)
 (the below git command will fail if you dont have [git installed](http://git-scm.com/))
+<!--more-->
 
+{% codeblock %}
 mkdir blog 'or name of your github repo
 cd blog
 git init 'initialise this directory to be under git control
@@ -25,6 +27,7 @@ git remote add octopress git://github.com/imathis/octopress.git 'add octopress m
 git pull octopress master 
 git remote add git@github.com:username/blog.git 'where blog is the name of your github repo
 git push origin master
+{% endcodeblock %}
 
 
 Before running the ruby commands ensure you have the latest version of rvm and ruby 1.9.2 installed. I found [this gist](https://gist.github.com/1159539) invaluable
@@ -76,3 +79,4 @@ No more password prompts.
 
 find . -name *.DS_Store -type f -exec rm {} \;
 
+{% gist 1233473 %}
