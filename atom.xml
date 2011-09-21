@@ -4,7 +4,7 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2011-09-21T23:38:43+01:00</updated>
+  <updated>2011-09-21T23:46:39+01:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -26,15 +26,28 @@ understanding and including git into my daily development workflow.&lt;/p&gt;
 &lt;p&gt;Create Github repository on github. I created a seperate blog repo for mine named &amp;#8216;blog&amp;#8217;&lt;/p&gt;
 
 &lt;p&gt;Create a local copy of the octopress master: (I use terminal and create a directory on my desktop)
-(the below git command will fail if you dont have &lt;a href=&quot;http://git-scm.com/&quot;&gt;git installed&lt;/a&gt;)
-&amp;lt;-!MORE-&gt;
-mkdir blog &amp;#8216;or name of your github repo
-cd blog
-git init &amp;#8216;initialise this directory to be under git control
-git remote add octopress git://github.com/imathis/octopress.git &amp;#8216;add octopress main branch to your repo
-git pull octopress master
-git remote add git@github.com:username/blog.git &amp;#8216;where blog is the name of your github repo
-git push origin master&lt;/p&gt;
+(the below git command will fail if you dont have &lt;a href=&quot;http://git-scm.com/&quot;&gt;git installed&lt;/a&gt;)&lt;/p&gt;
+
+&lt;!&#8211;more&#8211;&gt;
+
+
+
+
+&lt;figure role=code&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre class=&quot;line-numbers&quot;&gt;&lt;span class=&#8217;line&#8217;&gt;1&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;2&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;3&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;4&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;5&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;6&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;7&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#8217;code&#8217; width=&#8217;100%&#8217;&gt;&lt;pre&gt;&lt;code class=&#8221;&gt;&lt;div class=&#8217;line&#8217;&gt;mkdir blog &#8216;or name of your github repo
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;cd blog
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;git init &#8216;initialise this directory to be under git control
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;git remote add octopress git://github.com/imathis/octopress.git &#8216;add octopress main branch to your repo 
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;git pull octopress master 
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;git remote add git@github.com:username/blog.git &#8216;where blog is the name of your github repo
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;git push origin master&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
+
 
 &lt;p&gt;Before running the ruby commands ensure you have the latest version of rvm and ruby 1.9.2 installed. I found &lt;a href=&quot;https://gist.github.com/1159539&quot;&gt;this gist&lt;/a&gt; invaluable&lt;/p&gt;
 

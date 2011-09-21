@@ -88,15 +88,28 @@ understanding and including git into my daily development workflow.</p>
 <p>Create Github repository on github. I created a seperate blog repo for mine named &#8216;blog&#8217;</p>
 
 <p>Create a local copy of the octopress master: (I use terminal and create a directory on my desktop)
-(the below git command will fail if you dont have <a href="http://git-scm.com/">git installed</a>)
-&lt;-!MORE->
-mkdir blog &#8216;or name of your github repo
-cd blog
-git init &#8216;initialise this directory to be under git control
-git remote add octopress git://github.com/imathis/octopress.git &#8216;add octopress main branch to your repo
-git pull octopress master
-git remote add git@github.com:username/blog.git &#8216;where blog is the name of your github repo
-git push origin master</p>
+(the below git command will fail if you dont have <a href="http://git-scm.com/">git installed</a>)</p>
+
+<!--more-->
+
+
+
+
+<figure role=code><div class="highlight"><table cellpadding="0" cellspacing="0"><tr><td class="gutter"><pre class="line-numbers"><span class='line'>1</span>
+<span class='line'>2</span>
+<span class='line'>3</span>
+<span class='line'>4</span>
+<span class='line'>5</span>
+<span class='line'>6</span>
+<span class='line'>7</span>
+</pre></td><td class='code' width='100%'><pre><code class=''><div class='line'>mkdir blog 'or name of your github repo
+</div><div class='line'>cd blog
+</div><div class='line'>git init 'initialise this directory to be under git control
+</div><div class='line'>git remote add octopress git://github.com/imathis/octopress.git 'add octopress main branch to your repo 
+</div><div class='line'>git pull octopress master 
+</div><div class='line'>git remote add git@github.com:username/blog.git 'where blog is the name of your github repo
+</div><div class='line'>git push origin master</div></code></pre></td></tr></table></div></figure>
+
 
 <p>Before running the ruby commands ensure you have the latest version of rvm and ruby 1.9.2 installed. I found <a href="https://gist.github.com/1159539">this gist</a> invaluable</p>
 
