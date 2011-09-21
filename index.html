@@ -59,103 +59,6 @@
       <div class="blog-index">
 
 
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/blog/2011/09/19/octopress-from-a-git-slash-ruby-slash-markdown-novice-point-of-view/">Octopress From a Git/ruby/markdown Novice Point of View</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2011-09-19T23:10:00+01:00" pubdate  data-updated="true" >Sep 19<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Surround your pullquote like this {&#8221; text to be quoted &#8220;}</p>
-
-<p>Create Github repository on github. I created a seperate blog repo for mine named &#8216;blog&#8217;</p>
-
-<p>Create a local copy of the octopress master: (I use terminal and create a directory on my desktop)
-(the below git command will fail if you dont have <a href="http://git-scm.com/">git installed</a>)</p>
-
-<p>mkdir blog &#8216;or name of your github repo
-cd blog
-git init &#8216;initialise this directory to be under git control
-git remote add octopress git://github.com/imathis/octopress.git &#8216;add octopress main branch to your repo
-git pull octopress master
-git remote add git@github.com:username/blog.git &#8216;where blog is the name of your github repo
-git push origin master</p>
-
-<p>Before running the ruby commands ensure you have the latest version of rvm and ruby 1.9.2 installed. I found <a href="https://gist.github.com/1159539">this gist</a> invaluable</p>
-
-<figure role=code><div class="highlight"><table cellpadding="0" cellspacing="0"><tr><td class="gutter"><pre class="line-numbers"><span class='line'>1</span>
-<span class='line'>2</span>
-<span class='line'>3</span>
-<span class='line'>4</span>
-<span class='line'>5</span>
-</pre></td><td class='code' width='100%'><pre><code class=''><div class='line'>rvm rvmrc trust
-</div><div class='line'>rvm reload
-</div><div class='line'>gem install bundler
-</div><div class='line'>gem install rake
-</div><div class='line'>bundle install</div></code></pre></td></tr></table></div></figure>
-
-
-<p>install the default Octopress theme and push it on Source branch :</p>
-
-<figure role=code><div class="highlight"><table cellpadding="0" cellspacing="0"><tr><td class="gutter"><pre class="line-numbers"><span class='line'>1</span>
-<span class='line'>2</span>
-<span class='line'>3</span>
-<span class='line'>4</span>
-</pre></td><td class='code' width='100%'><pre><code class=''><div class='line'>rake install
-</div><div class='line'>git add .
-</div><div class='line'>git commit -m 'Installed Octopress Theme'
-</div><div class='line'>git push origin source</div></code></pre></td></tr></table></div></figure>
-
-
-<p>Edit _config.yml and change default value into yours. After finishing, then we deploy.</p>
-
-<figure role=code><div class="highlight"><table cellpadding="0" cellspacing="0"><tr><td class="gutter"><pre class="line-numbers"><span class='line'>1</span>
-<span class='line'>2</span>
-<span class='line'>3</span>
-<span class='line'>4</span>
-</pre></td><td class='code' width='100%'><pre><code class=''><div class='line'>git clone git@github.com:username/username.github.com _deploy
-</div><div class='line'>rake config_deploy[gh-pages]
-</div><div class='line'>rake generate
-</div><div class='line'>rake deploy</div></code></pre></td></tr></table></div></figure>
-
-
-<p>When you <code>Rake Generate</code>
-the re-generated site is created in the &#8216;public/blog/&#8217; directory.</p>
-
-<p>You can either load the index.html page directly from this page and manually generate when you make changes or use the
-<code>rake preview</code> command to run a local web server and have view live changes by pointing your browser to localhost:4000</p>
-
-<p>When you do the commits from the command line Git will prompt for username and password. This gets annoying, so I found this work around on
-stackoverflow. Create a .netrc file in your user directory (cd~/) that contains:</p>
-
-<p><code>machine github.com</code><br/>
-<code>login yourgithublogin</code>  <br/>
-<code>password yourgithubpassword</code></p>
-
-<p>No more password prompts.</p>
-</div>
-  
-  
-
-
-  </article>
-
 <nav role="pagination">
   <div>
     
@@ -180,10 +83,6 @@ stackoverflow. Create a .netrc file in your user directory (cd~/) that contains:
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/blog/2011/09/19/octopress-from-a-git-slash-ruby-slash-markdown-novice-point-of-view/">Octopress From a Git/ruby/markdown Novice Point of View</a>
-      </li>
     
   </ul>
 </section>
