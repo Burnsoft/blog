@@ -4,7 +4,7 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2011-09-21T23:23:54+01:00</updated>
+  <updated>2011-09-21T23:38:43+01:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -26,9 +26,9 @@ understanding and including git into my daily development workflow.&lt;/p&gt;
 &lt;p&gt;Create Github repository on github. I created a seperate blog repo for mine named &amp;#8216;blog&amp;#8217;&lt;/p&gt;
 
 &lt;p&gt;Create a local copy of the octopress master: (I use terminal and create a directory on my desktop)
-(the below git command will fail if you dont have &lt;a href=&quot;http://git-scm.com/&quot;&gt;git installed&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;mkdir blog &amp;#8216;or name of your github repo
+(the below git command will fail if you dont have &lt;a href=&quot;http://git-scm.com/&quot;&gt;git installed&lt;/a&gt;)
+&amp;lt;-!MORE-&gt;
+mkdir blog &amp;#8216;or name of your github repo
 cd blog
 git init &amp;#8216;initialise this directory to be under git control
 git remote add octopress git://github.com/imathis/octopress.git &amp;#8216;add octopress main branch to your repo
