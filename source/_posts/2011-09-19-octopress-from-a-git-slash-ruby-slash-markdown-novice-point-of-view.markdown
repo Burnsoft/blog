@@ -6,11 +6,10 @@ comments: true
 categories: [Github, octopress, ruby, markdown]
 ---
 
--This is a work in progress, on site for testing purposes only
 {% pullquote %}
 I've recently updated my companies website and had added a blog section as an afterthought using Wordpress. Github was something I used 
-regularly to view open source projects but had never used as originally intended. (I just download the zip file). {"I'd always viewed the 
-git process as having too steep a learning curve."}
+regularly to view open source projects but had never used as originally intended. (I just download the zip file). {" I'd always viewed the 
+git process as having too steep a learning curve. "}
 Since I found out about Octopress last week, this has replaced my mediocre blog with something very elegant and also put me on the way to 
 understanding and including git into my daily development workflow.
 {% endpullquote %}
