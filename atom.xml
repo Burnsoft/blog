@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>iOS coder blog</title>
+  <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
+  <link href="http://burnsoft.github.com/blog/"/>
+  <updated>2011-09-21T21:12:13+01:00</updated>
+  <id>http://burnsoft.github.com/blog/</id>
+  <author>
+    <name>Nik Burns</name>
+    
+  </author>
+
+  
+  <entry>
+    <title>Octopress From a Git/ruby/markdown Novice Point of View</title>
+    <link href="http://burnsoft.github.com/blog/blog/2011/09/19/octopress-from-a-git-slash-ruby-slash-markdown-novice-point-of-view/"/>
+    <updated>2011-09-19T23:10:00+01:00</updated>
+    <id>http://burnsoft.github.com/blog/blog/2011/09/19/octopress-from-a-git-slash-ruby-slash-markdown-novice-point-of-view</id>
+    <content type="html">&lt;p&gt;-This is a work in progress, on site for testing purposes only&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ve recently updated my companies website and had added a blog section as an afterthought using Wordpress. Github was something I used
+regularly to view open source projects but had never used as originally intended. (I just download the zip file). I&amp;#8217;d always viewed the
+git process as having too steep a learning curve.&lt;/p&gt;
+
+&lt;p&gt;Since I found out about Octopress last week, this has replaced my mediocre blog with something very elegant and also put me on the way to
+understanding and including git into my daily dev workflow.&lt;/p&gt;
+
+&lt;p&gt;Create Github repository on github. I created a seperate blog repo for mine named &amp;#8216;blog&amp;#8217;&lt;/p&gt;
+
+&lt;p&gt;Create a local copy of the octopress master: (I use terminal and create a directory on my desktop)
+(the below git command will fail if you dont have &lt;a href=&quot;http://git-scm.com/&quot;&gt;git installed&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;mkdir blog &amp;#8216;or name of your github repo
+cd blog
+git init &amp;#8216;initialise this directory to be under git control
+git remote add octopress git://github.com/imathis/octopress.git &amp;#8216;add octopress main branch to your repo
+git pull octopress master
+git remote add git@github.com:username/blog.git &amp;#8216;where blog is the name of your github repo
+git push origin master&lt;/p&gt;
+
+&lt;p&gt;Before running the ruby commands ensure you have the latest version of rvm and ruby 1.9.2 installed. I found &lt;a href=&quot;https://gist.github.com/1159539&quot;&gt;this gist&lt;/a&gt; invaluable&lt;/p&gt;
+
+&lt;figure role=code&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre class=&quot;line-numbers&quot;&gt;&lt;span class=&#8217;line&#8217;&gt;1&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;2&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;3&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;4&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;5&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#8217;code&#8217; width=&#8217;100%&#8217;&gt;&lt;pre&gt;&lt;code class=&#8221;&gt;&lt;div class=&#8217;line&#8217;&gt;rvm rvmrc trust
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;rvm reload
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;gem install bundler
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;gem install rake
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;bundle install&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
+
+
+&lt;p&gt;install the default Octopress theme and push it on Source branch :&lt;/p&gt;
+
+&lt;figure role=code&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre class=&quot;line-numbers&quot;&gt;&lt;span class=&#8217;line&#8217;&gt;1&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;2&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;3&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;4&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#8217;code&#8217; width=&#8217;100%&#8217;&gt;&lt;pre&gt;&lt;code class=&#8221;&gt;&lt;div class=&#8217;line&#8217;&gt;rake install
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;git add .
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;git commit -m &#8216;Installed Octopress Theme&#8217;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;git push origin source&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
+
+
+&lt;p&gt;Edit _config.yml and change default value into yours. After finishing, then we doing Deploy.&lt;/p&gt;
+
+&lt;figure role=code&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre class=&quot;line-numbers&quot;&gt;&lt;span class=&#8217;line&#8217;&gt;1&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;2&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;3&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;4&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#8217;code&#8217; width=&#8217;100%&#8217;&gt;&lt;pre&gt;&lt;code class=&#8221;&gt;&lt;div class=&#8217;line&#8217;&gt;git clone git@github.com:username/username.github.com _deploy
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;rake config_deploy[gh-pages]
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;rake generate
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;rake deploy&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
+
+
+&lt;p&gt;So, this is how it works. In your repository folder :&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Your repository folder is based on Source branch ( git checkout source and check on github.com source branch )&lt;/li&gt;
+&lt;li&gt;public folder is your gh-pages branch&lt;/li&gt;
+&lt;li&gt;source and sass folder is folder for working&lt;/li&gt;
+&lt;li&gt;everytime you do change into source &amp;amp; sass folder, don&amp;#8217;t forget commit and push into Source folder&lt;/li&gt;
+&lt;li&gt;For number 4, &lt;code&gt;git checkout source&lt;/code&gt;, &lt;code&gt;git add -A&lt;/code&gt;, &lt;code&gt;git commit -m &#8216;message&#8217;&lt;/code&gt; &amp;amp; &lt;code&gt;git push origin source&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Update your site with rake generate &amp;amp; rake deploy.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;hr /&gt;
+
+&lt;p&gt;When you do the commits from the command line Git will prompt for username and password. I found this work around on
+stackoverflow. Create a .netrc file in your user directory (cd~/) that contains:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;machine github.com&lt;/li&gt;
+&lt;li&gt;login yourgithublogin&lt;/li&gt;
+&lt;li&gt;password yourgithubpassword&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;No more password prompts.&lt;/p&gt;
+</content>
+  </entry>
+  
+</feed>
