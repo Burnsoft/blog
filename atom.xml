@@ -4,7 +4,7 @@
   <title>iOS coder blog</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2011-09-21T21:46:29+01:00</updated>
+  <updated>2011-09-21T21:55:52+01:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -17,16 +17,19 @@
     <link href="http://burnsoft.github.com/blog/blog/2011/09/19/octopress-from-a-git-slash-ruby-slash-markdown-novice-point-of-view/"/>
     <updated>2011-09-19T23:10:00+01:00</updated>
     <id>http://burnsoft.github.com/blog/blog/2011/09/19/octopress-from-a-git-slash-ruby-slash-markdown-novice-point-of-view</id>
-    <content type="html">&lt;p&gt;-This is a work in progress, on site for testing purposes only&lt;/p&gt;
-
-&lt;p&gt;I&amp;#8217;ve recently updated my companies website and had added a blog section as an afterthought using Wordpress. Github was something I used
+    <content type="html">&lt;p&gt;-This is a work in progress, on site for testing purposes only
+&lt;span class=&#8217;has-pullquote&#8217; data-pullquote=&#8217;surround it like this &#8216;&gt;
+I&amp;#8217;ve recently updated my companies website and had added a blog section as an afterthought using Wordpress. Github was something I used
 regularly to view open source projects but had never used as originally intended. (I just download the zip file). I&amp;#8217;d always viewed the
 git process as having too steep a learning curve.&lt;/p&gt;
 
-&lt;p&gt;Since I found out about Octopress last week, this has replaced my mediocre blog with something very elegant and also put me on the way to
-understanding and including git into my daily development workflow.&lt;/p&gt;
+&lt;p&gt;Surround your paragraph with the pull quote tags. Then when you come to
+the text you want to pull, surround it like this and that&amp;#8217;s all there is to it.&lt;/p&gt;
 
-&lt;p&gt;Create Github repository on github. I created a seperate blog repo for mine named &amp;#8216;blog&amp;#8217;&lt;/p&gt;
+&lt;p&gt;Since I found out about Octopress last week, this has replaced my mediocre blog with something very elegant and also put me on the way to
+understanding and including git into my daily development workflow.
+&lt;/span&gt;
+Create Github repository on github. I created a seperate blog repo for mine named &amp;#8216;blog&amp;#8217;&lt;/p&gt;
 
 &lt;p&gt;Create a local copy of the octopress master: (I use terminal and create a directory on my desktop)
 (the below git command will fail if you dont have &lt;a href=&quot;http://git-scm.com/&quot;&gt;git installed&lt;/a&gt;)&lt;/p&gt;
