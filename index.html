@@ -142,6 +142,12 @@ git push origin master</p>
 </div><div class='line'>rake deploy</div></code></pre></td></tr></table></div></figure>
 
 
+<p>When you <code>Rake Generate</code>
+the re-generated site is created in the &#8216;public/blog/&#8217; directory.</p>
+
+<p>You can either load the index.html page directly from this page and manually generate when you make changes or use the
+<code>rake preview</code> command to run a local web server and have view live changes by pointing your browser to localhost:4000</p>
+
 <p>When you do the commits from the command line Git will prompt for username and password. This gets annoying, so I found this work around on
 stackoverflow. Create a .netrc file in your user directory (cd~/) that contains:</p>
 

@@ -4,7 +4,7 @@
   <title>iOS coder blog</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2011-09-21T21:24:41+01:00</updated>
+  <updated>2011-09-21T21:46:29+01:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -76,6 +76,12 @@ git push origin master&lt;/p&gt;
 &lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;rake generate
 &lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;rake deploy&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
 
+
+&lt;p&gt;When you &lt;code&gt;Rake Generate&lt;/code&gt;
+the re-generated site is created in the &amp;#8216;public/blog/&amp;#8217; directory.&lt;/p&gt;
+
+&lt;p&gt;You can either load the index.html page directly from this page and manually generate when you make changes or use the
+&lt;code&gt;rake preview&lt;/code&gt; command to run a local web server and have view live changes by pointing your browser to localhost:4000&lt;/p&gt;
 
 &lt;p&gt;When you do the commits from the command line Git will prompt for username and password. This gets annoying, so I found this work around on
 stackoverflow. Create a .netrc file in your user directory (cd~/) that contains:&lt;/p&gt;
