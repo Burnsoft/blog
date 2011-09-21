@@ -58,6 +58,13 @@ rake deploy
 {% endcodeblock %}
 
 
+When you ```Rake Generate```
+the re-generated site is created in the 'public/blog/' directory.
+
+You can either load the index.html page directly from this page and manually generate when you make changes or use the
+```rake preview``` command to run a local web server and have view live changes by pointing your browser to localhost:4000
+
+
 
 When you do the commits from the command line Git will prompt for username and password. This gets annoying, so I found this work around on 
 stackoverflow. Create a .netrc file in your user directory (cd~/) that contains:
