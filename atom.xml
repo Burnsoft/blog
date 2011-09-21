@@ -4,7 +4,7 @@
   <title>iOS coder blog</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2011-09-21T22:31:15+01:00</updated>
+  <updated>2011-09-21T22:42:15+01:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -17,7 +17,11 @@
     <link href="http://burnsoft.github.com/blog/blog/2011/09/19/octopress-from-a-git-slash-ruby-slash-markdown-novice-point-of-view/"/>
     <updated>2011-09-19T23:10:00+01:00</updated>
     <id>http://burnsoft.github.com/blog/blog/2011/09/19/octopress-from-a-git-slash-ruby-slash-markdown-novice-point-of-view</id>
-    <content type="html">&lt;p&gt;Surround your pullquote like this {&amp;#8221; text to be quoted &amp;#8220;}&lt;/p&gt;
+    <content type="html">&lt;p&gt;I&amp;#8217;ve recently updated my companies website and had added a blog section as an afterthought using Wordpress. Github was something I used
+regularly to view open source projects but had never used as originally intended. (I just download the zip file). I&amp;#8217;d always viewed the
+git process as having too steep a learning curve.
+Since I found out about Octopress last week, this has replaced my mediocre blog with something very elegant and also put me on the way to
+understanding and including git into my daily development workflow.&lt;/p&gt;
 
 &lt;p&gt;Create Github repository on github. I created a seperate blog repo for mine named &amp;#8216;blog&amp;#8217;&lt;/p&gt;
 
