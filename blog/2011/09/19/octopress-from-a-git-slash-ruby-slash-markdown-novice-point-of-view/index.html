@@ -152,6 +152,33 @@ stackoverflow. Create a .netrc file in your user directory (cd~/) that contains:
 <p>No more password prompts.</p>
 
 <p>find . -name *.DS_Store -type f -exec rm {} \;</p>
+
+<div><script src='https://gist.github.com/1233473.js?file='></script>
+<noscript><pre><code>- (BOOL) connectedToNetwork 
+{ 
+    // Create zero addy 
+    struct sockaddr_in zeroAddress; 
+    bzero(&amp;zeroAddress, sizeof(zeroAddress)); 
+    zeroAddress.sin_len = sizeof(zeroAddress); 
+    zeroAddress.sin_family = AF_INET; 
+    // Recover reachability flags 
+    SCNetworkReachabilityRef defaultRouteReachability = SCNetworkReachabilityCreateWithAddress(NULL, (struct sockaddr*)&amp;zeroAddress); 
+    SCNetworkReachabilityFlags flags; 
+    BOOL didRetrieveFlags = SCNetworkReachabilityGetFlags(defaultRouteReachability, &amp;flags); 
+    CFRelease(defaultRouteReachability); 
+    if (!didRetrieveFlags) 
+    { 
+        NSLog(@&quot;Error. Could not recover network reachability flags&quot;); 
+        return 0; 
+    } 
+    BOOL isReachable = flags &amp; kSCNetworkFlagsReachable; 
+    BOOL needsConnection = flags &amp; kSCNetworkFlagsConnectionRequired; 
+    return (isReachable &amp;&amp; !needsConnection) ? YES : NO;
+    
+}</code></pre></noscript></div>
+
+
+
 </div>
 
 
