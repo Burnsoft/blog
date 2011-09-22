@@ -1,12 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>
+            http://burnsoft.github.com/blog/blog/2011/09/19/octopress-from-a-git-slash-ruby-slash-markdown-novice-point-of-view/
+        </loc>
+        <lastmod>2011-09-22T20:23:58+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://burnsoft.github.com/blog/404.html</loc>
         <lastmod>2011-09-21T23:23:43+01:00</lastmod>
     </url>
     <url>
         <loc>http://burnsoft.github.com/blog/blog/archives/</loc>
-        <lastmod>2011-09-18T21:36:25+01:00</lastmod>
+        <lastmod>2011-09-22T20:23:58+01:00</lastmod>
     </url>
     <url>
         <loc>http://burnsoft.github.com/blog/Code/</loc>
@@ -18,6 +24,6 @@
     </url>
     <url>
         <loc>http://burnsoft.github.com/blog/</loc>
-        <lastmod>2011-09-18T21:36:25+01:00</lastmod>
+        <lastmod>2011-09-22T20:23:58+01:00</lastmod>
     </url>
 </urlset>
