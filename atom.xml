@@ -4,7 +4,7 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2011-09-23T07:37:00+01:00</updated>
+  <updated>2011-09-23T07:40:53+01:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -28,19 +28,19 @@ choose to host your octopress on github.&lt;/p&gt;
 
 &lt;h2&gt;Steps&lt;/h2&gt;
 
-&lt;h2&gt;Things to do before installing Octopress:&lt;/h2&gt;
+&lt;p&gt;-Things to do before installing Octopress:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;http://git-scm.com/&quot;&gt;Install Git&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://gist.github.com/1159539/&quot;&gt;Install RVM and latest Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Create your repo on Github&lt;/li&gt;
+&lt;li&gt;Set up local directory to hold your repo&lt;/li&gt;
 &lt;/ol&gt;
 
 
 &lt;h2&gt;Install to Github subdirectory&lt;/h2&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Create Repo&lt;/li&gt;
-&lt;li&gt;Setup local directory and git init&lt;/li&gt;
 &lt;li&gt;git remote add octopress git://github.com/imathis/octopress.git&lt;/li&gt;
 &lt;li&gt;git pull octopress master&lt;/li&gt;
 &lt;li&gt;git checkout -b source&lt;/li&gt;
@@ -49,11 +49,9 @@ choose to host your octopress on github.&lt;/p&gt;
 &lt;li&gt;Setup RVM&lt;/li&gt;
 &lt;li&gt;rvm rvmrc trust&lt;/li&gt;
 &lt;li&gt;rvm reload&lt;/li&gt;
-&lt;li&gt;rake setup_github_pages
-26  rake install
-27  rake generate
-28  rake deploy
-29  history&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rake setup_github_pages&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;rake install&lt;/li&gt;
+&lt;li&gt;rake generate&lt;/li&gt;
 &lt;/ol&gt;
 
 
@@ -61,7 +59,9 @@ choose to host your octopress on github.&lt;/p&gt;
 
 &lt;p&gt;The sound didn&amp;#8217;t transfer to youtube for some reason. If I get enough asks then i&amp;#8217;ll try again. Try me on Twitter&lt;/p&gt;
 
-&lt;p&gt;&lt;video width=&#8217;640&#8217; height=&#8217;320&#8217; preload=&#8217;none&#8217; controls poster=&#8217; http://s3.imathis.com/video/zero-to-fancy-buttons.png&#8217;&gt;&lt;source src=&#8217;http://www.youtube.com/watch?v=57VoGcJMBWs&amp;feature=player_embedded&#8217; type=&#8217;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#8217;/&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;http://www.youtube.com/watch?v=57VoGcJMBWs is the link, not sure if this will embed (need to read some more docs ;-) )&lt;/p&gt;
+
+&lt;p&gt;&lt;video width=&#8217;640&#8217; height=&#8217;320&#8217; preload=&#8217;none&#8217; controls poster=&#8217; http://s3.imathis.com/video/zero-to-fancy-buttons.png&#8217;&gt;&lt;source src=&#8217;http://www.youtube.com/watch?v=57VoGcJMBWs&#8217; type=&#8217;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#8217;/&gt;&lt;/video&gt;&lt;/p&gt;
 
 &lt;h2&gt;Thing I wish I&amp;#8217;d known earlier&lt;/h2&gt;
 
