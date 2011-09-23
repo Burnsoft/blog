@@ -4,7 +4,7 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2011-09-23T07:53:12+01:00</updated>
+  <updated>2011-09-23T07:57:39+01:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -54,7 +54,9 @@ There is a custom rake script (is that the correct terminology?) to do the trick
 &lt;li&gt;rvm reload&lt;/li&gt;
 &lt;li&gt;rake setup_github_pages&lt;/li&gt;
 &lt;li&gt;rake install&lt;/li&gt;
-&lt;li&gt;rake generate&lt;/li&gt;
+&lt;li&gt;Amend you root line in your config.yml file to your new repo name&lt;/li&gt;
+&lt;li&gt;Rake Generate&lt;/li&gt;
+&lt;li&gt;Rake Deploy&lt;/li&gt;
 &lt;/ol&gt;
 
 
