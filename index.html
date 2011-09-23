@@ -64,6 +64,55 @@
     
   <header>
     
+      <h1 class="entry-title"><a href="/blog/blog/2011/09/23/twitter-timeline-re-usable-class/">Twitter Timeline Re-usable Class</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-23T18:32:00+01:00" pubdate  data-updated="true" >Sep 23<span>rd</span>, 2011</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;m developing a Twitter tool and needed to grab the latest tweets in the public timeline and chuck (technical term) in a tableview for testing.</p>
+
+<p>I&#8217;ve been developing on and off for iOS since it 2008 and, i&#8217;m embarrassed to say, have only relatively recently started to design my code for reuse.</p>
+
+<p>I&#8217;d also appreciate any comments if anyone spots any bad coding habits or would like to improve it.</p>
+
+<p>Copy the code into your project making sure the calling class registers for the <latestTweetDelegate> in its header file.</p>
+
+<p>Then instantiate the class using your URL, I just use the standard Twitter Public Timeline Timeline API:</p>
+
+<p>latestTweets *lt = [[latestTweets alloc] initWithTwitterURL:@&#8221;http://api.twitter.com/1/statuses/public_timeline.json?include_entities=true&#8221;];
+lt.delegate = self;</p>
+
+<p>[lt release];</p>
+
+<p> </div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/blog/2011/09/23/twitter-timeline-re-usable-class/">Read on &rarr;</a>
+    </footer>
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/blog/2011/09/23/octopress-install-with-screencast/">Octopress Install With Screencast</a></h1>
     
     
@@ -98,61 +147,12 @@ There is a custom rake script (is that the correct terminology?) to do the trick
 
 <p>-Things to do before installing Octopress:</p>
 
-<ol>
-<li><a href="http://git-scm.com/">Install Git</a></li>
-<li><a href="https://gist.github.com/1159539/">Install RVM and latest Ruby</a></li>
-<li>Create your repo on Github</li>
-<li>Set up local directory to hold your repo</li>
-</ol>
-
-
-<h3>Install to Github subdirectory</h3>
-
-<ol>
-<li>git remote add octopress git://github.com/imathis/octopress.git</li>
-<li>git pull octopress master</li>
-<li>git checkout -b source</li>
-<li>git remote add origin git@github.com:YourUserName/YourRepoName.git</li>
-<li>git push origin source</li>
-<li>Setup RVM</li>
-<li>rvm rvmrc trust</li>
-<li>rvm reload</li>
-<li>rake setup_github_pages</li>
-<li>rake install</li>
-<li>Amend you root line in your config.yml file to your new repo name</li>
-<li>Rake Generate</li>
-<li>Rake Deploy</li>
-</ol>
-
-
-<h3>Screencast</h3>
-
-<p>The sound didn&#8217;t transfer to youtube for some reason. If I get enough asks then i&#8217;ll try again. Try me on Twitter</p>
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/57VoGcJMBWs" frameborder="0" allowfullscreen></iframe>
-
-
-<h2>Thing I wish I&#8217;d known earlier</h2>
-
-<p>When you do the commits from the command line Git will prompt for username and password. This gets annoying, so I found this work around on
-stackoverflow. Create a .netrc file in your user directory (cd~/) that contains:</p>
-
-<figure role=code><div class="highlight"><table cellpadding="0" cellspacing="0"><tr><td class="gutter"><pre class="line-numbers"><span class='line'>1</span>
-<span class='line'>2</span>
-<span class='line'>3</span>
-</pre></td><td class='code' width='100%'><pre><code class=''><div class='line'>machine github.com 
-</div><div class='line'>login yourgithublogin
-</div><div class='line'>password yourgithubpassword</div></code></pre></td></tr></table></div></figure>
-
-
-<p>No more password prompts.</p>
-
-<p>Avoid using Finder to navigate your local repo structure. It has a nasty habit of creating .DS_Store hidden files which .gitignore didn&#8217;t seem to ignore</p>
-
-<p><code>find . -name *.DS_Store -type f -exec rm {} \;</code> will get rid of them.
-you can also just <code>rm ".DS_Store"</code> in the relevant directory</p>
 </div>
   
+  
+    <footer>
+      <a rel="full-article" href="/blog/blog/2011/09/23/octopress-install-with-screencast/">Read on &rarr;</a>
+    </footer>
   
 
 
@@ -182,6 +182,10 @@ you can also just <code>rm ".DS_Store"</code> in the relevant directory</p>
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/blog/2011/09/23/twitter-timeline-re-usable-class/">Twitter Timeline Re-usable Class</a>
+      </li>
     
       <li class="post">
         <a href="/blog/blog/2011/09/23/octopress-install-with-screencast/">Octopress Install With Screencast</a>
