@@ -4,7 +4,7 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2011-09-23T07:40:53+01:00</updated>
+  <updated>2011-09-23T07:47:30+01:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -26,7 +26,10 @@ understanding and including git into my daily development workflow.&lt;/p&gt;
 &lt;p&gt;The process was relatively simple, but being new to Git and Ruby I had a few problems along the way. I hope this post helps you if you also
 choose to host your octopress on github.&lt;/p&gt;
 
-&lt;h2&gt;Steps&lt;/h2&gt;
+&lt;p&gt;(Update - 23rd September 2011 - The Octopress team have made this even easier since I did my install last week.
+There is a custom rake script (is that the correct terminology?) to do the tricky git stuff for a github install.)&lt;/p&gt;
+
+&lt;h3&gt;Steps&lt;/h3&gt;
 
 &lt;p&gt;-Things to do before installing Octopress:&lt;/p&gt;
 
@@ -38,7 +41,7 @@ choose to host your octopress on github.&lt;/p&gt;
 &lt;/ol&gt;
 
 
-&lt;h2&gt;Install to Github subdirectory&lt;/h2&gt;
+&lt;h3&gt;Install to Github subdirectory&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;git remote add octopress git://github.com/imathis/octopress.git&lt;/li&gt;
@@ -49,28 +52,32 @@ choose to host your octopress on github.&lt;/p&gt;
 &lt;li&gt;Setup RVM&lt;/li&gt;
 &lt;li&gt;rvm rvmrc trust&lt;/li&gt;
 &lt;li&gt;rvm reload&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;rake setup_github_pages&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;rake setup_github_pages&lt;/li&gt;
 &lt;li&gt;rake install&lt;/li&gt;
 &lt;li&gt;rake generate&lt;/li&gt;
 &lt;/ol&gt;
 
 
-&lt;h2&gt;Screencast&lt;/h2&gt;
+&lt;h3&gt;Screencast&lt;/h3&gt;
 
 &lt;p&gt;The sound didn&amp;#8217;t transfer to youtube for some reason. If I get enough asks then i&amp;#8217;ll try again. Try me on Twitter&lt;/p&gt;
 
 &lt;p&gt;http://www.youtube.com/watch?v=57VoGcJMBWs is the link, not sure if this will embed (need to read some more docs ;-) )&lt;/p&gt;
 
-&lt;p&gt;&lt;video width=&#8217;640&#8217; height=&#8217;320&#8217; preload=&#8217;none&#8217; controls poster=&#8217; http://s3.imathis.com/video/zero-to-fancy-buttons.png&#8217;&gt;&lt;source src=&#8217;http://www.youtube.com/watch?v=57VoGcJMBWs&#8217; type=&#8217;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#8217;/&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;&lt;video width=&#8217;640&#8217; height=&#8217;320&#8217; preload=&#8217;none&#8217; controls poster=&#8217; http://s3.imathis.com/video/zero-to-fancy-buttons.png&#8217;&gt;&lt;source src=&#8217;http://www.youtube.com/embed/57VoGcJMBWs&#8217; type=&#8217;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#8217;/&gt;&lt;/video&gt;&lt;/p&gt;
 
 &lt;h2&gt;Thing I wish I&amp;#8217;d known earlier&lt;/h2&gt;
 
 &lt;p&gt;When you do the commits from the command line Git will prompt for username and password. This gets annoying, so I found this work around on
 stackoverflow. Create a .netrc file in your user directory (cd~/) that contains:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;machine github.com&lt;/code&gt;
-&lt;code&gt;login yourgithublogin&lt;/code&gt; &lt;br/&gt;
-&lt;code&gt;password yourgithubpassword&lt;/code&gt;&lt;/p&gt;
+&lt;figure role=code&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre class=&quot;line-numbers&quot;&gt;&lt;span class=&#8217;line&#8217;&gt;1&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;2&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;3&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#8217;code&#8217; width=&#8217;100%&#8217;&gt;&lt;pre&gt;&lt;code class=&#8221;&gt;&lt;div class=&#8217;line&#8217;&gt;machine github.com 
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;login yourgithublogin
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;password yourgithubpassword&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
+
 
 &lt;p&gt;No more password prompts.&lt;/p&gt;
 

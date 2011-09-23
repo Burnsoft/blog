@@ -88,7 +88,10 @@ understanding and including git into my daily development workflow.</p>
 <p>The process was relatively simple, but being new to Git and Ruby I had a few problems along the way. I hope this post helps you if you also
 choose to host your octopress on github.</p>
 
-<h2>Steps</h2>
+<p>(Update - 23rd September 2011 - The Octopress team have made this even easier since I did my install last week.
+There is a custom rake script (is that the correct terminology?) to do the tricky git stuff for a github install.)</p>
+
+<h3>Steps</h3>
 
 <p>-Things to do before installing Octopress:</p>
 
@@ -100,7 +103,7 @@ choose to host your octopress on github.</p>
 </ol>
 
 
-<h2>Install to Github subdirectory</h2>
+<h3>Install to Github subdirectory</h3>
 
 <ol>
 <li>git remote add octopress git://github.com/imathis/octopress.git</li>
@@ -111,28 +114,32 @@ choose to host your octopress on github.</p>
 <li>Setup RVM</li>
 <li>rvm rvmrc trust</li>
 <li>rvm reload</li>
-<li><code>rake setup_github_pages</code></li>
+<li>rake setup_github_pages</li>
 <li>rake install</li>
 <li>rake generate</li>
 </ol>
 
 
-<h2>Screencast</h2>
+<h3>Screencast</h3>
 
 <p>The sound didn&#8217;t transfer to youtube for some reason. If I get enough asks then i&#8217;ll try again. Try me on Twitter</p>
 
 <p>http://www.youtube.com/watch?v=57VoGcJMBWs is the link, not sure if this will embed (need to read some more docs ;-) )</p>
 
-<p><video width='640' height='320' preload='none' controls poster=' http://s3.imathis.com/video/zero-to-fancy-buttons.png'><source src='http://www.youtube.com/watch?v=57VoGcJMBWs' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/></video></p>
+<p><video width='640' height='320' preload='none' controls poster=' http://s3.imathis.com/video/zero-to-fancy-buttons.png'><source src='http://www.youtube.com/embed/57VoGcJMBWs' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/></video></p>
 
 <h2>Thing I wish I&#8217;d known earlier</h2>
 
 <p>When you do the commits from the command line Git will prompt for username and password. This gets annoying, so I found this work around on
 stackoverflow. Create a .netrc file in your user directory (cd~/) that contains:</p>
 
-<p><code>machine github.com</code>
-<code>login yourgithublogin</code> <br/>
-<code>password yourgithubpassword</code></p>
+<figure role=code><div class="highlight"><table cellpadding="0" cellspacing="0"><tr><td class="gutter"><pre class="line-numbers"><span class='line'>1</span>
+<span class='line'>2</span>
+<span class='line'>3</span>
+</pre></td><td class='code' width='100%'><pre><code class=''><div class='line'>machine github.com 
+</div><div class='line'>login yourgithublogin
+</div><div class='line'>password yourgithubpassword</div></code></pre></td></tr></table></div></figure>
+
 
 <p>No more password prompts.</p>
 
