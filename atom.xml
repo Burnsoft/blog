@@ -4,7 +4,7 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2011-09-23T07:47:30+01:00</updated>
+  <updated>2011-09-23T07:53:12+01:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -64,7 +64,7 @@ There is a custom rake script (is that the correct terminology?) to do the trick
 
 &lt;p&gt;http://www.youtube.com/watch?v=57VoGcJMBWs is the link, not sure if this will embed (need to read some more docs ;-) )&lt;/p&gt;
 
-&lt;p&gt;&lt;video width=&#8217;640&#8217; height=&#8217;320&#8217; preload=&#8217;none&#8217; controls poster=&#8217; http://s3.imathis.com/video/zero-to-fancy-buttons.png&#8217;&gt;&lt;source src=&#8217;http://www.youtube.com/embed/57VoGcJMBWs&#8217; type=&#8217;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#8217;/&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;&lt;video width=&#8217;640&#8217; height=&#8217;320&#8217; preload=&#8217;none&#8217; controls poster=&#8221;&gt;&lt;source src=&#8217;http://www.youtube.com/embed/57VoGcJMBWs&#8217; type=&#8217;video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;&#8217;/&gt;&lt;/video&gt;&lt;/p&gt;
 
 &lt;h2&gt;Thing I wish I&amp;#8217;d known earlier&lt;/h2&gt;
 
