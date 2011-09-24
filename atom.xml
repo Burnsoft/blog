@@ -4,7 +4,7 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2011-09-24T10:44:54+01:00</updated>
+  <updated>2011-09-24T18:26:57+01:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -13,10 +13,10 @@
 
   
   <entry>
-    <title>Twitter Timeline Re-usable Class</title>
-    <link href="http://burnsoft.github.com/blog/blog/2011/09/23/twitter-timeline-re-usable-class/"/>
-    <updated>2011-09-23T18:32:00+01:00</updated>
-    <id>http://burnsoft.github.com/blog/blog/2011/09/23/twitter-timeline-re-usable-class</id>
+    <title>Twitter Timeline Re-usable Class - iOS</title>
+    <link href="http://burnsoft.github.com/blog/blog/2011/09/24/twitter-timeline-re-usable-class/"/>
+    <updated>2011-09-24T18:25:00+01:00</updated>
+    <id>http://burnsoft.github.com/blog/blog/2011/09/24/twitter-timeline-re-usable-class</id>
     <content type="html">&lt;p&gt;I&amp;#8217;m developing a Twitter tool and needed to grab the latest tweets in the public timeline and chuck (technical term) in a tableview for testing.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;d also appreciate any comments if anyone spots any bad coding habits or would like to improve it.&lt;/p&gt;
