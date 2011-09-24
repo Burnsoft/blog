@@ -17,11 +17,13 @@ Copy the code into your project making sure the calling class registers for the 
  
 Then instantiate the class using your URL, I just use the standard Twitter Public Timeline Timeline API:
  
+{% codeblock somewhere in your class%}
 latestTweets *lt = [[latestTweets alloc] initWithTwitterURL:@"http://api.twitter.com/1/statuses/public_timeline.json?include_entities=true"];
 lt.delegate = self;
  
 [lt release];
- 
+ {% endcodeblock %}
+
  <!--more-->
 
 Your calling class needs to implement the delegate call back method to capture the returned array:
