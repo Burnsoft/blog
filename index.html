@@ -64,6 +64,53 @@
     
   <header>
     
+      <h1 class="entry-title"><a href="/blog/blog/2011/09/23/twitter-timeline-re-usable-class/">Twitter Timeline Re-usable Class</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-23T18:32:00+01:00" pubdate  data-updated="true" >Sep 23<span>rd</span>, 2011</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;m developing a Twitter tool and needed to grab the latest tweets in the public timeline and chuck (technical term) in a tableview for testing.</p>
+
+<p>I&#8217;d also appreciate any comments if anyone spots any bad coding habits or would like to improve it.</p>
+
+<p>Copy the code into your project making sure the calling class registers for the <latestTweetDelegate> in its header file.</p>
+
+<p>Then instantiate the class using your URL, I just use the standard Twitter Public Timeline Timeline API:</p>
+
+<p>latestTweets *lt = [[latestTweets alloc] initWithTwitterURL:@&#8221;http://api.twitter.com/1/statuses/public_timeline.json?include_entities=true&#8221;];
+lt.delegate = self;</p>
+
+<p>[lt release];</p>
+
+<p> </div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/blog/2011/09/23/twitter-timeline-re-usable-class/">Read on &rarr;</a>
+    </footer>
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/blog/2011/09/23/octopress-install-with-screencast/">Octopress Install With Screencast</a></h1>
     
     
@@ -133,6 +180,10 @@ There is a custom rake script (is that the correct terminology?) to do the trick
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/blog/2011/09/23/twitter-timeline-re-usable-class/">Twitter Timeline Re-usable Class</a>
+      </li>
     
       <li class="post">
         <a href="/blog/blog/2011/09/23/octopress-install-with-screencast/">Octopress Install With Screencast</a>
