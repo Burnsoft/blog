@@ -47,7 +47,7 @@ There is a custom rake script (is that the correct terminology?) to do the trick
 
 ###Screencast
 
-<iframe width="425" height="349" src="http://www.youtube.com/embed/ftTvApUJ1zo?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
+<iframe width="425" height="349" src="http://www.youtube.com/embed/Hcj-GhNm-Ik?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
 
 ## Thing I wish I'd known earlier
 
