@@ -1,0 +1,299 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Octopress Install With Screencast - iOS Geek</title>
+  <meta name="author" content="Nik Burns">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+  <link rel="canonical" href="http://burnsoft.github.com/blog/blog/2011/09/23/octopress-install-with-screencast/"/>
+  <link href="/blog/favicon.png" rel="shortcut icon" />
+  <link href="/blog/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/blog/javascripts/modernizr-2.0.js"></script>
+  <script src="http://s3.amazonaws.com/ender-js/jeesh.min.js"></script>
+  <script src="/blog/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/blog/atom.xml" rel="alternate" title="iOS Geek" type="application/atom+xml"/>
+  <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
+<link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body  >
+  <header><hgroup>
+  <h1><a href="/blog/">iOS Geek</a></h1>
+  
+    <h2>code and general geekiness.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role=navigation><ul role=subscription data-subscription="rss">
+  <li><a href="/blog/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+<form action="http://google.com/search" method="get">
+  <fieldset role="site-search">
+    <input type="hidden" name="q" value="site:burnsoft.github.com/blog" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+<ul role=main-navigation>
+  <li><a href="/blog/">Blog</a></li>
+  <li><a href="/blog/blog/archives">Archives</a></li>
+  <li><a href="http://www.burnsoft.co.uk">Burnsoft</a></li>
+
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry">
+  
+  <header>
+    
+      <h1 class="entry-title">Octopress Install With Screencast</h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-23T07:04:00+01:00" pubdate  data-updated="true" >Sep 23<span>rd</span>, 2011</time></p>
+    
+  </header>
+
+
+<div class="entry-content"><p>I&#8217;ve recently updated my companies website and had added a blog section as an afterthought using Wordpress. Github is something I use
+regularly to view open source projects but had never used as originally intended, (I just download the zip file), as I&#8217;d always viewed the
+git process as having too steep a learning curve.
+Since I found out about Octopress last week, this has replaced my mediocre blog with something very elegant and also put me on the way to
+understanding and including git into my daily development workflow.</p>
+
+<p>The process was relatively simple, but being new to Git and Ruby I had a few problems along the way. I hope this post helps you if you also
+choose to host your octopress on github.</p>
+
+<p>(Update - 23rd September 2011 - The Octopress team have made this even easier since I did my install last week.
+There is a custom rake script (is that the correct terminology?) to do the tricky git stuff for a github install.)</p>
+
+<h3>Steps</h3>
+
+<p>-Things to do before installing Octopress: (from within Terminal)</p>
+
+<!--more-->
+
+
+<ol>
+<li><a href="http://git-scm.com/">Install Git</a></li>
+<li><a href="https://gist.github.com/1159539/">Install RVM and latest Ruby</a></li>
+<li>Create your repo on Github</li>
+<li>Set up local directory to hold your repo and cd into it</li>
+</ol>
+
+
+<h3>Install to Github subdirectory</h3>
+
+<ol>
+<li>git remote add octopress git://github.com/imathis/octopress.git</li>
+<li>git pull octopress master</li>
+<li>git checkout -b source</li>
+<li>git remote add origin git@github.com:YourUserName/YourRepoName.git</li>
+<li>git push origin source</li>
+<li>Setup RVM</li>
+<li>rvm rvmrc trust</li>
+<li>rvm reload</li>
+<li>rake setup_github_pages</li>
+<li>rake install</li>
+<li>Amend you root line in your config.yml file to your new repo name</li>
+<li>Rake Generate</li>
+<li>Rake Deploy</li>
+</ol>
+
+
+<h3>Screencast</h3>
+
+<iframe width="425" height="349" src="http://www.youtube.com/embed/Hcj-GhNm-Ik?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Thing I wish I&#8217;d known earlier</h2>
+
+<p>When you do the commits from the command line Git will prompt for username and password. This gets annoying, so I found this work around on
+stackoverflow. Create a .netrc file in your user directory (cd~/) that contains:</p>
+
+<figure role=code><div class="highlight"><table cellpadding="0" cellspacing="0"><tr><td class="gutter"><pre class="line-numbers"><span class='line'>1</span>
+<span class='line'>2</span>
+<span class='line'>3</span>
+</pre></td><td class='code' width='100%'><pre><code class=''><div class='line'>machine github.com 
+</div><div class='line'>login yourgithublogin
+</div><div class='line'>password yourgithubpassword</div></code></pre></td></tr></table></div></figure>
+
+
+<p>No more password prompts.</p>
+
+<p>Avoid using Finder to navigate your local repo structure. It has a nasty habit of creating .DS_Store hidden files which .gitignore didn&#8217;t seem to ignore</p>
+
+<p><code>find . -name *.DS_Store -type f -exec rm {} \;</code> will get rid of them.
+you can also just <code>rm ".DS_Store"</code> in the relevant directory</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Nik Burns</span></span>
+
+      
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-23T07:04:00+01:00" pubdate  data-updated="true" >Sep 23<span>rd</span>, 2011</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://burnsoft.github.com/blog/blog/2011/09/23/octopress-install-with-screencast/" data-via="burnsoft" data-counturl="http://burnsoft.github.com/blog/blog/2011/09/23/octopress-install-with-screencast/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+</div>
+
+    
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread"><div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'burnsoft';
+  var disqus_identifier = 'http://burnsoft.github.com/blog/blog/2011/09/23/octopress-install-with-screencast/';
+  var disqus_url = 'http://burnsoft.github.com/blog/blog/2011/09/23/octopress-install-with-screencast/';
+  //var disqus_developer = 1;
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside role=sidebar>
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/blog/2011/09/24/twitter-timeline-re-usable-class/">Twitter Timeline Re-usable Class - iOS</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/blog/2011/09/23/octopress-install-with-screencast/">Octopress Install With Screencast</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("burnsoft", 4, false);
+    });
+  </script>
+  <script src="/blog/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/burnsoft" class="twitter-follow-button" data-width="208px" data-show-count="true">Follow @burnsoft</a>
+  
+</section>
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer><p>
+  Copyright &copy; 2011 - Nik Burns -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-581486-4']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+  
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+  
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+</body>
+</html>

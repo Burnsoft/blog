@@ -20,14 +20,14 @@ There is a custom rake script (is that the correct terminology?) to do the trick
 
 ###Steps###
 
--Things to do before installing Octopress:
+-Things to do before installing Octopress: (from within Terminal)
 
 <!--more-->
 
 1. [Install Git](http://git-scm.com/)
 2. [Install RVM and latest Ruby](https://gist.github.com/1159539/)
 3. Create your repo on Github
-4. Set up local directory to hold your repo
+4. Set up local directory to hold your repo and cd into it
 
 ###Install to Github subdirectory
 
