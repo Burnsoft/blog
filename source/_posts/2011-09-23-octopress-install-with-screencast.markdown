@@ -47,9 +47,7 @@ There is a custom rake script (is that the correct terminology?) to do the trick
 
 ###Screencast
 
-The sound didn't transfer to youtube for some reason. If I get enough asks then i'll try again. Try me on Twitter
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/57VoGcJMBWs" frameborder="0" allowfullscreen></iframe>
+<iframe width="425" height="349" src="http://www.youtube.com/embed/ftTvApUJ1zo?hl=en&fs=1" frameborder="0" allowfullscreen></iframe>
 
 ## Thing I wish I'd known earlier
 
