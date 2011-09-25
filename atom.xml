@@ -4,7 +4,7 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2011-09-25T17:12:47+01:00</updated>
+  <updated>2011-09-25T18:11:32+01:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -216,7 +216,7 @@ There is a custom rake script (is that the correct terminology?) to do the trick
 
 &lt;h3&gt;Steps&lt;/h3&gt;
 
-&lt;p&gt;-Things to do before installing Octopress:&lt;/p&gt;
+&lt;p&gt;-Things to do before installing Octopress: (from within Terminal)&lt;/p&gt;
 
 &lt;!&#8211;more&#8211;&gt;
 
@@ -225,7 +225,7 @@ There is a custom rake script (is that the correct terminology?) to do the trick
 &lt;li&gt;&lt;a href=&quot;http://git-scm.com/&quot;&gt;Install Git&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://gist.github.com/1159539/&quot;&gt;Install RVM and latest Ruby&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Create your repo on Github&lt;/li&gt;
-&lt;li&gt;Set up local directory to hold your repo&lt;/li&gt;
+&lt;li&gt;Set up local directory to hold your repo and cd into it&lt;/li&gt;
 &lt;/ol&gt;
 
 
