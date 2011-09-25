@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Twitter Timeline Re-usable Class"
-date: 2011-09-23 18:32
+title: "Twitter Timeline Re-usable Class - iOS"
+date: 2011-09-24 18:25
 comments: true
-categories: 
+categories: [iOS, Twitter, json, delegate]
 published: true
 ---
 
