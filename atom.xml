@@ -4,13 +4,35 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2011-12-20T15:01:51+00:00</updated>
+  <updated>2011-12-20T22:59:06+00:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
     
   </author>
 
+  
+  <entry>
+    <title>iPrefs to App Swipe to Review to Nowhere&#8230;.</title>
+    <link href="http://burnsoft.github.com/blog/blog/2011/12/20/iprefs-to-app-swipe-to-review-to-nowhere-dot-dot-dot/"/>
+    <updated>2011-12-20T14:40:00+00:00</updated>
+    <id>http://burnsoft.github.com/blog/blog/2011/12/20/iprefs-to-app-swipe-to-review-to-nowhere-dot-dot-dot</id>
+    <content type="html">&lt;h1&gt;App Swipe&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h4&gt;&amp;#8220;App reviews fine&amp;#8221; - me, (2009-yesterday)&lt;/h4&gt;
+
+&lt;h4&gt;&amp;#8220;App review sucks&amp;#8221; - me, (this morning)&lt;/h4&gt;
+
+&lt;h4&gt;&amp;#8220;App review fine&amp;#8221; - me, (this evening)&lt;/h4&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;These past few weeks have been interesting.
+&lt;img src=&quot;../images/blog%20post%20images/reviewStatus.jpg&quot; alt=&quot;AppStore Status&quot; /&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Twitter Timeline Re-usable Class - iOS</title>
