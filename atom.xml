@@ -4,13 +4,55 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2011-12-20T23:12:21+00:00</updated>
+  <updated>2011-12-21T00:27:44+00:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
     
   </author>
 
+  
+  <entry>
+    <title>iPrefs to App Swipe to Review to Nowhere&#8230;.</title>
+    <link href="http://burnsoft.github.com/blog/blog/2011/12/20/iprefs-to-app-swipe-to-review-to-nowhere-dot-dot-dot/"/>
+    <updated>2011-12-20T14:40:00+00:00</updated>
+    <id>http://burnsoft.github.com/blog/blog/2011/12/20/iprefs-to-app-swipe-to-review-to-nowhere-dot-dot-dot</id>
+    <content type="html">&lt;h4&gt;&amp;#8220;App reviews fine&amp;#8221; - me, (2009-yesterday)&lt;/h4&gt;
+
+&lt;h4&gt;&amp;#8220;App review sucks&amp;#8221; - me, (this morning)&lt;/h4&gt;
+
+&lt;h4&gt;&amp;#8220;App review fine&amp;#8221; - me, (this evening)&lt;/h4&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;These past few weeks i&amp;#8217;ve been working on a new app that uses the Notification Center (pull down menu) in iOS 4+ to launch other apps and perform daily tasks (compose iMessage, Tweet, mail etc).&lt;/p&gt;
+
+&lt;h4&gt;iPrefs&lt;/h4&gt;
+
+&lt;p&gt;It started life as an app called &amp;#8216;iPrefs&amp;#8217; and the catalyst was the Settings URL scheme that became public knowledge at the iOS5 release. (e.g. prefs:root=AIRPLANE_MODE)&lt;/p&gt;
+
+&lt;p&gt;It made launching your settings easy, bluetooth was one swipe and a click away, as was airplane mode. It was fully localized in French, German, Italian and Spanish, would be free with one saved notification shortcut (in-app purchase for max of 10), worked great and a really nice looking app very similiar to the notification center.&lt;/p&gt;
+
+&lt;p&gt;Before I submitted to Apple for review I checked the Store for any other apps with similiar functionality and found one other, Switches+ (still available as at time of writing), so thought that the prefs URL&amp;#8217;s were ok to use.
+The app was uploaded on the 25th November, and rejected on the 2nd December.
+&amp;#8216;None public URL scheme&amp;#8217; was the reason for rejection.
+&lt;em&gt;(I had other bugs to fix, but on subsequent resolution center queries was made aware that under no circumstances could I use the prefs: urls. Even to help a user add a Twitter account when non was available in iOS5)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;OK, fair enough. I understand that URL&amp;#8217;s &lt;strong&gt;&lt;em&gt;can&lt;/em&gt;&lt;/strong&gt; change in the future, just move on I thought. So I did.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#8221; src=&#8217;http://burnsoft.github.com/blog/images/blog&#8217; width=&#8221; height=&#8221; alt=&#8217;post images/reviewStatus.jpg 700 411 App Review Status&#8217; title=&#8217;post images/reviewStatus.jpg 700 411 App Review Status&#8217;&gt;&lt;/p&gt;
+
+&lt;h4&gt;App Swipe&lt;/h4&gt;
+
+&lt;p&gt;I still had this brilliant use for Notification Center (I now know that I wasn&amp;#8217;t alone, @drbarnard @artysx @skorebrits were all working on similiar apps around this time) and decided to use the future functionality for iPrefs I had in mind as the basis for the new app. I didn&amp;#8217;t have a name yet, so iPrefs was my working title.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#8221; src=&#8217;http://burnsoft.github.com/blog/images/blog&#8217; width=&#8221; height=&#8221; alt=&#8217;post images/one.png App Swipe pull down screen&#8217; title=&#8217;post images/one.png App Swipe pull down screen&#8217;&gt;&lt;/p&gt;
+
+&lt;p&gt;It has been my first experience working on an app that includes a feature Apple believes falls fowl of their review guidelines.&lt;/p&gt;
+
+&lt;p&gt;Now, many of you will probably already have made up your mind, and decided that&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Twitter Timeline Re-usable Class - iOS</title>
