@@ -4,7 +4,7 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2012-02-17T23:04:09+00:00</updated>
+  <updated>2012-02-17T23:06:25+00:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -54,26 +54,25 @@ I Just needed a new name ;-)
 
 &lt;h5&gt;Pre-Xmas Opening&lt;/h5&gt;
 
-&lt;p&gt;9th December - I was cutting it fine for the Xmas closedown of iTunesConnect when I submitted App Swipe but I needn&amp;#8217;t have worried.&lt;br/&gt;
-13th December - I&amp;#8217;d received my first ever &amp;#8220;Your app requires additional review time&amp;#8221; email. Gutted!
-There was nothing I could do except be very polite and ask via the resolution center if there was anything I could do to help speed things up.&lt;/p&gt;
-
-&lt;p&gt;21st December - Apple emailed me to discuss my app submission. My use  of notification center to create &amp;#8216;quick links&amp;#8217; was the main reason for my rejection (reference app review guidelines 2.4).&lt;br/&gt;
+&lt;p&gt;-9th December - I was cutting it fine for the Xmas closedown of iTunesConnect when I submitted App Swipe but I needn&amp;#8217;t have worried.&lt;br/&gt;
+-13th December - I&amp;#8217;d received my first ever &amp;#8220;Your app requires additional review time&amp;#8221; email. Gutted!
+There was nothing I could do except be very polite and ask via the resolution center if there was anything I could do to help speed things up.&lt;br/&gt;
+-21st December - Apple emailed me to discuss my app submission. My use  of notification center to create &amp;#8216;quick links&amp;#8217; was the main reason for my rejection (reference app review guidelines 2.4).&lt;br/&gt;
 I had also used an image that resembled the notification pull down screen as my app icon, which they also didn&amp;#8217;t like.&lt;/p&gt;
 
 &lt;p&gt;iTunesConnect was still showing my app as in review so I rejected the binary, removed the ability to use notification center for shortcuts and changed the offending images.&lt;/p&gt;
 
 &lt;h5&gt;Pre-Xmas Shutdown Frenzy&lt;/h5&gt;
 
-&lt;p&gt;21st December - I re-submitted close to midnight, requested an expedited review, emailed the nice chap who I had spoken to earlier in the day and crossed my fingers. My expedited review was declined, which I understood as I didn&amp;#8217;t have a major bug or anything that would cause a bad user experience. (Lesson learned for expedited requests).&lt;/p&gt;
+&lt;p&gt;-21st December - I re-submitted close to midnight, requested an expedited review, emailed the nice chap who I had spoken to earlier in the day and crossed my fingers. My expedited review was declined, which I understood as I didn&amp;#8217;t have a major bug or anything that would cause a bad user experience. (Lesson learned for expedited requests).&lt;/p&gt;
 
-&lt;p&gt;4th January - App Swipe stayed in review until I received a very nice, &amp;#8216;Your app App Swipe has been reviewed, but we are unable to post this version&amp;#8217; email.
+&lt;p&gt;-4th January - App Swipe stayed in review until I received a very nice, &amp;#8216;Your app App Swipe has been reviewed, but we are unable to post this version&amp;#8217; email.
 I&amp;#8217;m unable to access the resolution center as this is now resolved but I had a good few pages of back and forth with the very helpful review team. (no sarcasm intended, just incase it comes across!).&lt;/p&gt;
 
 &lt;h5&gt;It&amp;#8217;s Groundhog day, again&lt;/h5&gt;
 
-&lt;p&gt;11th January - rejected. &lt;br/&gt;
-17th January - rejected.&lt;/p&gt;
+&lt;p&gt;-11th January - rejected. &lt;br/&gt;
+-17th January - rejected.&lt;/p&gt;
 
 &lt;p&gt;App Review Guidelines 10.4 was now my nemesis.&lt;/p&gt;
 
@@ -84,12 +83,12 @@ I don&amp;#8217;t have the exact wording of the appeal as I didn&amp;#8217;t sav
 
 &lt;h5&gt;Good Feeling&lt;/h5&gt;
 
-&lt;p&gt;20th January - My first bit of good news, a positive appeal outcome.&lt;br/&gt;
+&lt;p&gt;-20th January - My first bit of good news, a positive appeal outcome.&lt;br/&gt;
 This kickstarted the &amp;#8216;move to live&amp;#8217; process and App Swipe was available within 24 hours. &lt;a href=&quot;https://twitter.com/AppSwipe/statuses/160153762537803776/&quot; title=&quot;I&#8217;m live&quot;&gt;App Swipe Twitter Status 20th Jan&lt;/a&gt;&lt;/p&gt;
 
 &lt;h5&gt;Future Updates&lt;/h5&gt;
 
-&lt;p&gt;11th February - App Swipe 1.2 is still awaiting review. &lt;br/&gt;
+&lt;p&gt;-11th February - App Swipe 1.2 is still awaiting review. &lt;br/&gt;
 At time of this article going live (17th Feb) I&amp;#8217;m still waiting. Hopefully things will progress this weekend.&lt;/p&gt;
 
 &lt;p&gt;I have more to say on my App Swipe experience, mainly around the inconsistant review process, URL schemes and notification center, so come back soon.&lt;/p&gt;
