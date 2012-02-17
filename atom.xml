@@ -4,7 +4,7 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2012-02-17T22:23:19+00:00</updated>
+  <updated>2012-02-17T22:27:23+00:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -57,7 +57,7 @@ Basically making iPrefs a frequently used task list and with the apps appearing 
 By the 13th December I&amp;#8217;d received my first ever &amp;#8220;Your app requires additional review time&amp;#8221; emails. Gutted!
 There was nothing I could do except be very polite and ask via the resolution center if there was anything I could do.&lt;/p&gt;
 
-&lt;p&gt;Apple emailed me on the 21st December to discuss my app submission. The use  of notification center to create &amp;#8216;quick links&amp;#8217;referencing app review guidelines 2.4 was the main reason for my rejection.
+&lt;p&gt;Apple emailed me on the 21st December to discuss my app submission. The use  of notification center to create &amp;#8216;quick links&amp;#8217; referencing app review guidelines 2.4 was the main reason for my rejection.
 I had also used an image that resembled the notification pull down screen as my app icon.
 iTunesConnect was still showing my app as in review so I rejected the binary, removed the ability to use notification center for shortcuts and changed the offending images.&lt;/p&gt;
 
@@ -75,7 +75,7 @@ I&amp;#8217;m unable to access the resolution center as this is now resolved but
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;#8216;Apps that create alternate desktop/home screen environments or simulate multi-app widget experiences will be rejected&amp;#8217;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;IMHO App Swipe was very similiar in functionality to other &amp;#8216;launcher&amp;#8217; apps on the store I now didn&amp;#8217;t have a clue what I could do to the app to make it acceptable and pass review. &lt;strong&gt;So I appealed&lt;/strong&gt;.
+&lt;p&gt;IMHO App Swipe was very similiar in functionality to other &amp;#8216;launcher&amp;#8217; apps on the store. I now didn&amp;#8217;t have a clue what I could do to the app to make it acceptable and pass review. &lt;strong&gt;So I appealed&lt;/strong&gt;.
 I don&amp;#8217;t have the exact wording of the appeal as I didn&amp;#8217;t save a copy, I&amp;#8217;m pretty sure I didn&amp;#8217;t beg or grovel, but I did make my case around the fact that any shortcut was placed explicitly by the user and not hard wired into the app. (man, I wish I&amp;#8217;d kept a copy)&lt;/p&gt;
 
 &lt;h5&gt;Good Feeling&lt;/h5&gt;
@@ -89,8 +89,6 @@ I don&amp;#8217;t have the exact wording of the appeal as I didn&amp;#8217;t sav
 &lt;p&gt;I have more to say on my App Swipe experience, mainly around the inconsistant review process, URL Schemes, notification center.&lt;/p&gt;
 
 &lt;p&gt;Come back soon.&lt;/p&gt;
-
-&lt;p&gt;Nik&lt;/p&gt;
 </content>
   </entry>
   
