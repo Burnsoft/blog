@@ -4,7 +4,7 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2012-02-17T20:35:58+00:00</updated>
+  <updated>2012-02-17T22:18:59+00:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -24,7 +24,7 @@ title: &amp;#8220;iPrefs to App Swipe to Review to Nowhere&amp;#8230;.&amp;#8221
 date: 2011-12-20 14:40
 comments: true
 categories: [ios5,app review,prefs URL, scheme]
-published: false&lt;/p&gt;
+published: true&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -34,18 +34,16 @@ published: false&lt;/p&gt;
 
 &lt;p&gt;It started life as an app called &amp;#8216;iPrefs&amp;#8217; and the catalyst was the Settings URL scheme that became public knowledge at the iOS5 release. (e.g. prefs:root=AIRPLANE_MODE)&lt;/p&gt;
 
-&lt;p&gt;&lt;span class=&#8217;has-pullquote&#8217; data-pullquote=&#8217;bluetooth was one swipe and a tap away &#8216;&gt;
-It made launching your settings easy, bluetooth was one swipe and a tap away&amp;#8221;, as was airplane mode. The app was fully localized in French, German, Italian and Spanish, would be free with one saved notification shortcut (in-app purchase for max of 10), worked great and a really nice looking app very similiar to the notification center.
-&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;It made launching your settings easy, bluetooth was one swipe and a tap away, as was airplane mode. The app was fully localized in French, German, Italian and Spanish, would be free with one saved notification shortcut (in-app purchase for max of 10), worked great and a really nice looking app very similiar to the notification center.&lt;/p&gt;
 
 &lt;p&gt;Before I submitted to Apple for review I checked the Store for any other apps using the prefs URL scheme and found one other, so thought that the prefs URL&amp;#8217;s were ok to use.
 The app was uploaded on the 25th November, and rejected on the 2nd December.
 &amp;#8216;None public URL scheme&amp;#8217; was the reason for rejection.
 &lt;em&gt;(I had other bugs to fix, but on subsequent resolution center queries was made aware that under no circumstances could I use the prefs: urls. Even to help a user add a Twitter account when non was available in iOS5)&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;OK, fair enough. I understand that URL&amp;#8217;s &lt;strong&gt;&lt;em&gt;can&lt;/em&gt;&lt;/strong&gt; change in the future, just move on I thought. So I did.&lt;/p&gt;
+&lt;p&gt;The original code for iPrefs is available on &lt;a href=&quot;https://github.com/Burnsoft/Settings-Swipe/&quot; title=&quot;Settings Swipe&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;The original code for iPrefs is available on Github&lt;/p&gt;
+&lt;p&gt;OK, fair enough. I understand that URL&amp;#8217;s &lt;strong&gt;&lt;em&gt;can&lt;/em&gt;&lt;/strong&gt; change in the future, just move on I thought. So I did.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&#8221; src=&#8217;http://burnsoft.github.com/blog/images/blog_post_images/reviewStatus.jpg&#8217; width=&#8221; height=&#8221; alt=&#8221; title=&#8221;&gt;&lt;/p&gt;
 
@@ -54,6 +52,51 @@ The app was uploaded on the 25th November, and rejected on the 2nd December.
 &lt;p&gt;I still had this great use for Notification Center (I now know that I wasn&amp;#8217;t alone, @drbarnard @artysx @skorebrits were all working on similiar apps around this time) and decided to use the NC functionality for iPrefs I had in mind as the basis for the new app.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&#8221; src=&#8217;http://burnsoft.github.com/blog/images/blog_post_images/one.png&#8217; width=&#8221; height=&#8221; alt=&#8221; title=&#8221;&gt;&lt;/p&gt;
+
+&lt;p&gt;If I couldn&amp;#8217;t use settings, then I&amp;#8217;ll use NC as a quick way to launch my favourite apps.&lt;/p&gt;
+
+&lt;p&gt;Surround your pullquote like this {&amp;#8221; text to be quoted &amp;#8220;}&lt;/p&gt;
+
+&lt;h5&gt;Pre Xmas Opening&lt;/h5&gt;
+
+&lt;p&gt;I was cutting it fine for the Xmas closedown of iTunesConnect when I submitted App Swipe on the 9th December but I needn&amp;#8217;t had worried.
+By the 13th December I&amp;#8217;d received my first ever &amp;#8220;Your app requires additional review time&amp;#8221; emails. Gutted!
+There was nothing I could do except be very polite and ask via the resolution center if there was anything I could do.&lt;/p&gt;
+
+&lt;p&gt;Apple emailed me on the 21st December to discuss my app submission. The use  of notification center to create &amp;#8216;quick links&amp;#8217;referencing app review guidelines 2.4 was the main reason for my rejection.
+I had also used an image that resembled the notification pull down screen as my app icon.
+iTunesConnect was still showing my app as in review so I rejected the binary, removed the ability to use notification center for shortcuts and changed the offending images.&lt;/p&gt;
+
+&lt;h5&gt;Pre Xmas Shutdown Frenzy&lt;/h5&gt;
+
+&lt;p&gt;I re-submitted close to midnight on the 21st December, requested an expedited review, emailed the nice chap who I had spoken to earlier in the day and crossed my fingers. My expedited review was declined, which I understand as I didn&amp;#8217;t have a major bug or anything that would cause a bad user experience. Lesson learned for expedited requests.&lt;/p&gt;
+
+&lt;p&gt;App Swipe stayed in review until 4th January until I received a very nice, &amp;#8216;Your app App Swipe has been reviewed, but we are unable to post this version&amp;#8217; email.
+I&amp;#8217;m unable to access the resolution center as this is now resolved but I had a good few pages or back and forth with the very helpful review team. (no sarcasm intended, just incase it comes across, honestly!).&lt;/p&gt;
+
+&lt;h5&gt;Its Groundhog day, again&lt;/h5&gt;
+
+&lt;p&gt;Rejected on the 11th January, rejected on the 17th January.
+10.4 was now my nemesis.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&amp;#8216;Apps that create alternate desktop/home screen environments or simulate multi-app widget experiences will be rejected&amp;#8217;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;IMHO App Swipe was very similiar in functionality to other &amp;#8216;launcher&amp;#8217; apps on the store I now didn&amp;#8217;t have a clue what I could do to the app to make it acceptable and pass review. &lt;strong&gt;So I appealed&lt;/strong&gt;.
+I don&amp;#8217;t have the exact wording of the appeal as I didn&amp;#8217;t save a copy, I&amp;#8217;m pretty sure I didn&amp;#8217;t beg or grovel, but I did make my case around the fact that any shortcut was placed explicitly by the user and not hard wired into the app. (man, I wish I&amp;#8217;d kept a copy)&lt;/p&gt;
+
+&lt;h5&gt;Good Feeling&lt;/h5&gt;
+
+&lt;p&gt;My first bit of good news, positive appeal outcome came on the 20th December. This kickstarted the &amp;#8216;move to live&amp;#8217; process and App Swipe was available within 24 hours. &lt;a href=&quot;https://twitter.com/AppSwipe/statuses/160153762537803776/&quot; title=&quot;I&#8217;m live&quot;&gt;App Swipe Twitter Status 20th Jan&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5&gt;Future Updates&lt;/h5&gt;
+
+&lt;p&gt;App Swipe 1.2 has been awaiting review since the 11th February. At time of this article going live (17th Feb) I&amp;#8217;m still waiting. Hopefull things will move this weekend.&lt;/p&gt;
+
+&lt;p&gt;I have more to say on my App Swipe experience, mainly around the inconsistant review process, URL Schemes, notification center.&lt;/p&gt;
+
+&lt;p&gt;Come back soon.&lt;/p&gt;
+
+&lt;p&gt;Nik&lt;/p&gt;
 </content>
   </entry>
   
