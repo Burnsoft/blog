@@ -4,7 +4,7 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2012-02-17T22:22:15+00:00</updated>
+  <updated>2012-02-17T22:23:19+00:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -46,7 +46,10 @@ The app was uploaded on the 25th November, and rejected on the 2nd December.
 
 &lt;p&gt;If I couldn&amp;#8217;t use settings, then I&amp;#8217;ll use NC as a quick way to launch my favourite apps.&lt;/p&gt;
 
-&lt;p&gt;Surround your pullquote like this {&amp;#8221; text to be quoted &amp;#8220;}&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#8217;has-pullquote&#8217; data-pullquote=&#8217;choose a contact to start the call/sms with&#8217;&gt;
+So I set to work updating iPrefs to enable the user to choose from a small list of apps, including email, sms, FaceTime, Facebook and various Twitter clients. You could choose a contact to start the call/sms with, compose a Tweet template, open Ebay or Facebook etc.
+Basically making iPrefs a frequently used task list and with the apps appearing in NC, you now had a really quick way to switch between apps that didn&amp;#8217;t involved double tapping any homescreens or sideways swipe navigations. Which was a win in my book. Just needed a new name ;-)
+&lt;/span&gt;&lt;/p&gt;
 
 &lt;h5&gt;Pre Xmas Opening&lt;/h5&gt;
 
