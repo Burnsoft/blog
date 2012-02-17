@@ -4,13 +4,58 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2011-12-21T20:54:27+00:00</updated>
+  <updated>2012-02-17T20:34:48+00:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
     
   </author>
 
+  
+  <entry>
+    <title>Iprefs To App Swipe To Review To Nowhere Dot Dot Dot</title>
+    <link href="http://burnsoft.github.com/blog/blog/2011/12/20/iprefs-to-app-swipe-to-review-to-nowhere-dot-dot-dot/"/>
+    <updated>2011-12-20T00:00:00+00:00</updated>
+    <id>http://burnsoft.github.com/blog/blog/2011/12/20/iprefs-to-app-swipe-to-review-to-nowhere-dot-dot-dot</id>
+    <content type="html">&lt;hr /&gt;
+
+&lt;p&gt;layout: post
+title: &amp;#8220;iPrefs to App Swipe to Review to Nowhere&amp;#8230;.&amp;#8221;
+date: 2011-12-20 14:40
+comments: true
+categories: [ios5,app review,prefs URL, scheme]
+published: true&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Back in November 2011 I started working on a new app that used the Notification Center in iOS 4+ to launch other apps and perform daily tasks (compose iMessage, Tweet, mail etc).&lt;/p&gt;
+
+&lt;h4&gt;iPrefs&lt;/h4&gt;
+
+&lt;p&gt;It started life as an app called &amp;#8216;iPrefs&amp;#8217; and the catalyst was the Settings URL scheme that became public knowledge at the iOS5 release. (e.g. prefs:root=AIRPLANE_MODE)&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#8217;has-pullquote&#8217; data-pullquote=&#8217;bluetooth was one swipe and a tap away &#8216;&gt;
+It made launching your settings easy, bluetooth was one swipe and a tap away&amp;#8221;, as was airplane mode. The app was fully localized in French, German, Italian and Spanish, would be free with one saved notification shortcut (in-app purchase for max of 10), worked great and a really nice looking app very similiar to the notification center.
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Before I submitted to Apple for review I checked the Store for any other apps using the prefs URL scheme and found one other, so thought that the prefs URL&amp;#8217;s were ok to use.
+The app was uploaded on the 25th November, and rejected on the 2nd December.
+&amp;#8216;None public URL scheme&amp;#8217; was the reason for rejection.
+&lt;em&gt;(I had other bugs to fix, but on subsequent resolution center queries was made aware that under no circumstances could I use the prefs: urls. Even to help a user add a Twitter account when non was available in iOS5)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;OK, fair enough. I understand that URL&amp;#8217;s &lt;strong&gt;&lt;em&gt;can&lt;/em&gt;&lt;/strong&gt; change in the future, just move on I thought. So I did.&lt;/p&gt;
+
+&lt;p&gt;The original code for iPrefs is available on Github&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#8221; src=&#8217;http://burnsoft.github.com/blog/images/blog_post_images/reviewStatus.jpg&#8217; width=&#8221; height=&#8221; alt=&#8221; title=&#8221;&gt;&lt;/p&gt;
+
+&lt;h4&gt;App Swipe&lt;/h4&gt;
+
+&lt;p&gt;I still had this great use for Notification Center (I now know that I wasn&amp;#8217;t alone, @drbarnard @artysx @skorebrits were all working on similiar apps around this time) and decided to use the NC functionality for iPrefs I had in mind as the basis for the new app.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#8221; src=&#8217;http://burnsoft.github.com/blog/images/blog_post_images/one.png&#8217; width=&#8221; height=&#8221; alt=&#8221; title=&#8221;&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Twitter Timeline Re-usable Class - iOS</title>
