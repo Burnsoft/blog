@@ -4,7 +4,7 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2012-02-17T22:43:10+00:00</updated>
+  <updated>2012-02-17T22:53:15+00:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -40,30 +40,31 @@ The app was uploaded on the 25th November, and rejected on the 2nd December.
 
 &lt;h4&gt;App Swipe&lt;/h4&gt;
 
-&lt;p&gt;I still had this great use for Notification Center (I now know that I wasn&amp;#8217;t alone, @drbarnard @artysx @skorebrits were all working on similiar apps around this time) and decided to use the NC functionality for iPrefs I had in mind as the basis for the new app.&lt;/p&gt;
+&lt;p&gt;I still knew that Notification Center had great potential (I now know that I wasn&amp;#8217;t alone, @drbarnard @artysx @skorebrits were all working on similiar apps around this time) and decided to use its functionality for iPrefs.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&#8221; src=&#8217;http://burnsoft.github.com/blog/images/blog_post_images/one.png&#8217; width=&#8221; height=&#8221; alt=&#8221; title=&#8221;&gt;&lt;/p&gt;
 
-&lt;p&gt;If I couldn&amp;#8217;t use settings, then I&amp;#8217;ll use NC as a quick way to launch my favourite apps.&lt;/p&gt;
+&lt;p&gt;With Apple not allowing the use of the settings URL scheme, I decided to use notification center as a quick way to launch my favourite apps.&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&#8217;has-pullquote&#8217; data-pullquote=&#8217;choose a contact to start the call/sms with&#8217;&gt;
-So I set to work updating iPrefs to enable the user to choose from a small list of apps, including email, sms, FaceTime, Facebook and various Twitter clients. You could choose a contact to start the call/sms with, compose a Tweet template, open Ebay or Facebook etc.
-Basically making iPrefs a frequently used task list and with the apps appearing in NC, you now had a really quick way to switch between apps that didn&amp;#8217;t involved double tapping any homescreens or sideways swipe navigations. Which was a win in my book. Just needed a new name ;-)
+So I set to work, updating iPrefs to enable the user to choose from a small list of apps, including email, SMS, FaceTime, Facebook and various Twitter clients. You could choose a contact to start the call/sms with, compose a Tweet template, open Ebay or Facebook etc, basically making iPrefs a frequently used task list.&lt;br/&gt;
+With the apps appearing in notification center, you now had a really quick way to switch between apps that didn&amp;#8217;t involved double tapping any homescreens or sideways swipe navigations, which was a win in my book.   &lt;br/&gt;
+I Just needed a new name ;-)
 &lt;/span&gt;&lt;/p&gt;
 
-&lt;h5&gt;Pre Xmas Opening&lt;/h5&gt;
+&lt;h5&gt;Pre-Xmas Opening&lt;/h5&gt;
 
-&lt;p&gt;I was cutting it fine for the Xmas closedown of iTunesConnect when I submitted App Swipe on the 9th December but I needn&amp;#8217;t had worried.
-By the 13th December I&amp;#8217;d received my first ever &amp;#8220;Your app requires additional review time&amp;#8221; emails. Gutted!
-There was nothing I could do except be very polite and ask via the resolution center if there was anything I could do.&lt;/p&gt;
+&lt;p&gt;I was cutting it fine for the Xmas closedown of iTunesConnect when I submitted App Swipe on the 9th December but I needn&amp;#8217;t have worried.
+By the 13th December I&amp;#8217;d received my first ever &amp;#8220;Your app requires additional review time&amp;#8221; email. Gutted!
+There was nothing I could do except be very polite and ask via the resolution center if there was anything I could do to help speed things up.&lt;/p&gt;
 
-&lt;p&gt;Apple emailed me on the 21st December to discuss my app submission. The use  of notification center to create &amp;#8216;quick links&amp;#8217; referencing app review guidelines 2.4 was the main reason for my rejection.
-I had also used an image that resembled the notification pull down screen as my app icon.
+&lt;p&gt;On the 21st December Apple emailed me to discuss my app submission. My use  of notification center to create &amp;#8216;quick links&amp;#8217; was the main reason for my rejection (reference app review guidelines 2.4).&lt;br/&gt;
+I had also used an image that resembled the notification pull down screen as my app icon, which they also didn&amp;#8217;t like.&lt;br/&gt;
 iTunesConnect was still showing my app as in review so I rejected the binary, removed the ability to use notification center for shortcuts and changed the offending images.&lt;/p&gt;
 
-&lt;h5&gt;Pre Xmas Shutdown Frenzy&lt;/h5&gt;
+&lt;h5&gt;Pre-Xmas Shutdown Frenzy&lt;/h5&gt;
 
-&lt;p&gt;I re-submitted close to midnight on the 21st December, requested an expedited review, emailed the nice chap who I had spoken to earlier in the day and crossed my fingers. My expedited review was declined, which I understand as I didn&amp;#8217;t have a major bug or anything that would cause a bad user experience. Lesson learned for expedited requests.&lt;/p&gt;
+&lt;p&gt;I re-submitted close to midnight on 21st December, requested an expedited review, emailed the nice chap who I had spoken to earlier in the day and crossed my fingers. My expedited review was declined, which I understood as I didn&amp;#8217;t have a major bug or anything that would cause a bad user experience. (Lesson learned for expedited requests).&lt;/p&gt;
 
 &lt;p&gt;App Swipe stayed in review until 4th January until I received a very nice, &amp;#8216;Your app App Swipe has been reviewed, but we are unable to post this version&amp;#8217; email.
 I&amp;#8217;m unable to access the resolution center as this is now resolved but I had a good few pages or back and forth with the very helpful review team. (no sarcasm intended, just incase it comes across, honestly!).&lt;/p&gt;
