@@ -4,7 +4,7 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2012-02-17T22:18:59+00:00</updated>
+  <updated>2012-02-17T22:19:47+00:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -13,20 +13,11 @@
 
   
   <entry>
-    <title>Iprefs To App Swipe To Review To Nowhere Dot Dot Dot</title>
+    <title>iPrefs to App Swipe to Review to Nowhere&#8230;.</title>
     <link href="http://burnsoft.github.com/blog/blog/2011/12/20/iprefs-to-app-swipe-to-review-to-nowhere-dot-dot-dot/"/>
-    <updated>2011-12-20T00:00:00+00:00</updated>
+    <updated>2011-12-20T14:40:00+00:00</updated>
     <id>http://burnsoft.github.com/blog/blog/2011/12/20/iprefs-to-app-swipe-to-review-to-nowhere-dot-dot-dot</id>
     <content type="html">&lt;hr /&gt;
-
-&lt;p&gt;layout: post
-title: &amp;#8220;iPrefs to App Swipe to Review to Nowhere&amp;#8230;.&amp;#8221;
-date: 2011-12-20 14:40
-comments: true
-categories: [ios5,app review,prefs URL, scheme]
-published: true&lt;/p&gt;
-
-&lt;hr /&gt;
 
 &lt;p&gt;Back in November 2011 I started working on a new app that used the Notification Center in iOS 4+ to launch other apps and perform daily tasks (compose iMessage, Tweet, mail etc).&lt;/p&gt;
 
