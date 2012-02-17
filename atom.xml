@@ -4,7 +4,7 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2012-02-17T22:27:23+00:00</updated>
+  <updated>2012-02-17T22:43:10+00:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -29,12 +29,12 @@
 
 &lt;p&gt;Before I submitted to Apple for review I checked the Store for any other apps using the prefs URL scheme and found one other, so thought that the prefs URL&amp;#8217;s were ok to use.
 The app was uploaded on the 25th November, and rejected on the 2nd December.
-&amp;#8216;None public URL scheme&amp;#8217; was the reason for rejection.
-&lt;em&gt;(I had other bugs to fix, but on subsequent resolution center queries was made aware that under no circumstances could I use the prefs: urls. Even to help a user add a Twitter account when non was available in iOS5)&lt;/em&gt;&lt;/p&gt;
+&amp;#8216;Non public URL scheme&amp;#8217; was the reason for rejection.
+&lt;em&gt;(I had other bugs to fix, but on subsequent resolution center queries was made aware that under no circumstances could I use the prefs: urls. Even to help a user add a Twitter account when none was available in iOS5)&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;The original code for iPrefs is available on &lt;a href=&quot;https://github.com/Burnsoft/Settings-Swipe/&quot; title=&quot;Settings Swipe&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;OK, fair enough. I understand that URL&amp;#8217;s &lt;strong&gt;&lt;em&gt;can&lt;/em&gt;&lt;/strong&gt; change in the future, just move on I thought. So I did.&lt;/p&gt;
+&lt;p&gt;OK, fair enough I thought. I understood that URL&amp;#8217;s &lt;strong&gt;&lt;em&gt;could&lt;/em&gt;&lt;/strong&gt; change in the future, so I decided to just move on.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&#8221; src=&#8217;http://burnsoft.github.com/blog/images/blog_post_images/reviewStatus.jpg&#8217; width=&#8221; height=&#8221; alt=&#8221; title=&#8221;&gt;&lt;/p&gt;
 
