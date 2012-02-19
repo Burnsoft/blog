@@ -4,13 +4,86 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2012-02-17T23:18:47+00:00</updated>
+  <updated>2012-02-19T22:44:24+00:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
     
   </author>
 
+  
+  <entry>
+    <title>URL today, gone tomorrow - iOS Settings</title>
+    <link href="http://burnsoft.github.com/blog/blog/2012/02/17/url-today/"/>
+    <updated>2012-02-17T23:30:00+00:00</updated>
+    <id>http://burnsoft.github.com/blog/blog/2012/02/17/url-today</id>
+    <content type="html">&lt;h6&gt;How Many Taps?&lt;/h6&gt;
+
+&lt;p&gt;I think most iPhone users would agree, that iOS settings are not the most user friendly of screens to navigate. I don&amp;#8217;t think by definition they can be, they cover tweaks and tunings that the average user will never even know exists. That&amp;#8217;s not to say settings are never visited, I just think that if a way was found to make it easier for a user to toggle their wifi/bluetooth or turn off 3G, then that way would be embraced by users and developers alike.&lt;/p&gt;
+
+&lt;p&gt;Currently if you want to toggle your bluetooth settings, assuming you are already on your homescreen…&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Tap Settings&lt;/li&gt;
+&lt;li&gt;Scroll to General&lt;/li&gt;
+&lt;li&gt;Tap Bluetooth&lt;/li&gt;
+&lt;li&gt;Toggle button&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;How about turn off your 3G connection…&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Tap Settings&lt;/li&gt;
+&lt;li&gt;Scroll to General&lt;/li&gt;
+&lt;li&gt;Tap Network&lt;/li&gt;
+&lt;li&gt;Toggle 3G&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;Most things are 4 screens away. If an app used bluetooth, which wasn&amp;#8217;t currently switched on, then it would have to ask the user to quit the app and follow the above instructions. It would be a lot easier and cleaner from a usability point of view if an app could send the user directly to the bluetooth settings, if the user so chose&amp;#8230;&lt;/p&gt;
+
+&lt;h5&gt;Please give a warm welcome&lt;/h5&gt;
+
+&lt;p&gt;in iOS 5, Apple made it possible to go directly to the settings area you wanted with one URL call.
+This can be done in your own application using:&lt;/p&gt;
+
+&lt;figure role=code&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre class=&quot;line-numbers&quot;&gt;&lt;span class=&#8217;line&#8217;&gt;1&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#8217;code&#8217; width=&#8217;100%&#8217;&gt;&lt;pre&gt;&lt;code class=&#8221;&gt;&lt;div class=&#8217;line&#8217;&gt; [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@&quot;prefs:root=TWITTER&quot;]];&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
+
+
+&lt;p&gt;
+or the URL could be called from within mobile Safari.&lt;br/&gt;
+I don&amp;#8217;t know who first found these, but they have been well documented and a quick google for &amp;#8216;iOS settings URL scheme&amp;#8217; finds various sources of information.&lt;/p&gt;
+
+&lt;h5&gt;Try them out&lt;/h5&gt;
+
+&lt;p&gt;My latest app started out as a settings shortcut helper (i&amp;#8217;ve previously blogged about its inception) and I open sourced the settings functionality of it.
+Swiping down into notification center and having your settings there is the easist use of these shortcuts IMHO, so if you are able to sign your own applications then I&amp;#8217;d recommend trying it out. If not, then the images should give you an idea of what I&amp;#8217;m talking about. &lt;a href=&quot;https://github.com/Burnsoft/Settings-Swipe/&quot; title=&quot;Settings Swipe&quot;&gt;Github - Settings Swipe&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5&gt;Enhancement request&lt;/h5&gt;
+
+&lt;p&gt;In the latest iOS 5.1 beta&amp;#8217;s these URL&amp;#8217;s are no longer available.&lt;br/&gt;
+Maybe they will make it in the next official release but their future is unknown. In the meantime we can try and show Apple that there is sufficient demand for this feature by requesting an enhancement request via their bugreporter.&lt;br/&gt;
+If you find them useful, please duplicate rdar://5864941&lt;br/&gt;
+The open radar comments are at &lt;a href=&quot;http://openradar.appspot.com/10198949/&quot; title=&quot;Open Radar&quot;&gt;Open Radar - URL scheme&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5&gt;Settings URL - Use Cases&lt;/h5&gt;
+
+&lt;p&gt;If you think of a compelling development use for direct access of the settings URL&amp;#8217;s please drop me a line and I&amp;#8217;ll add it to the below list.&lt;br/&gt;
+&lt;a href=&quot;http://twitter.com/nikburns/&quot; title=&quot;Twitter - nikburns&quot;&gt;@nikburns&lt;/a&gt;&lt;br/&gt;
+nik@burnsoft.co.uk&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Bluetooth toggle&lt;/li&gt;
+&lt;li&gt;3G Toggle&lt;/li&gt;
+&lt;li&gt;Brightness adjustment&lt;/li&gt;
+&lt;li&gt;Add Twitter account&lt;/li&gt;
+&lt;li&gt;Add VPN configuration&lt;/li&gt;
+&lt;/ol&gt;
+
+</content>
+  </entry>
   
   <entry>
     <title>iPrefs to App Swipe to Review to Nowhere&#8230;.</title>
@@ -87,13 +160,24 @@ I don&amp;#8217;t have the exact wording of the appeal as I didn&amp;#8217;t sav
 &lt;p&gt;-20th January - My first bit of good news, a positive appeal outcome.&lt;br/&gt;
 This kickstarted the &amp;#8216;move to live&amp;#8217; process and App Swipe was available within 24 hours. &lt;a href=&quot;https://twitter.com/AppSwipe/statuses/160153762537803776/&quot; title=&quot;I&#8217;m live&quot;&gt;App Swipe Twitter Status 20th Jan&lt;/a&gt;&lt;/p&gt;
 
-&lt;h5&gt;Future Updates&lt;/h5&gt;
+&lt;h5&gt;Updates&lt;/h5&gt;
 
 &lt;p&gt;-11th February - App Swipe 1.2 is still awaiting review.&lt;/p&gt;
 
-&lt;p&gt;At the time of this latest edit (17th Feb), I&amp;#8217;m still waiting. Hopefully things will progress this weekend.&lt;/p&gt;
+&lt;p&gt;-19th February  App Swipe 1.2 was rejected. Knowing that just a slight variation in how I was handling notifications could be the reason I&amp;#8217;m not yet on the store, I took another look at how App Swipe handled various scenarios in relation to the latest rejection reason&lt;br/&gt;
+&lt;strong&gt;&lt;em&gt;It would be appropriate to remove any functionality that includes, or enables the user to create, shortcuts to the Notification Center. &lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;I have more to say on my App Swipe experience, mainly around the inconsistant review process, URL schemes and notification center, so come back soon.&lt;/p&gt;
+&lt;p&gt;Initially I was baffled, then after further testing and re-reading of the rejection reason, Apples use of shortcuts in the plural jumped out at me. If a user had created multiple reminders and not fired them in notification center then they had effectively a number of application shortcuts ready to be used. So I changed the code to remove additional notifications when the app was launched directly or via a notification. Fingers crossed this will be acceptable.&lt;/p&gt;
+
+&lt;p&gt;I still think from a users point of view removing the extra notifications is wrong but Apple must see this differently, so if you agree that this should be the outcome from use of notification in this way, please dupe my enhancement request rdar://10609497)&lt;/p&gt;
+
+&lt;p&gt;I received a response that my rdar was a duplicate but as I don&amp;#8217;t know the exact wording of the original below is the summary of my enhancement request posted on the 20th December 2011. The original id is rdar://10380471&lt;br/&gt;
+&lt;em&gt;Notification Center functionality is not fully utilised at present.
+Pull down gesture could be used to aid user shortcuts to other applications, (does anyone really double tap the home button to switch apps!?) to launch the in built Tweet Sheet for iOS5, to call a friend, open iMessage compose view etc.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;My weekly submit, review, reject cycle takes about a week, so please come back soon for the next installment ;-)&lt;/p&gt;
 </content>
   </entry>
   
