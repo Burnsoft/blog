@@ -4,7 +4,7 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2012-02-20T19:41:11+00:00</updated>
+  <updated>2012-02-20T20:53:23+00:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -45,7 +45,7 @@
 
 &lt;h5&gt;Please give a warm welcome&lt;/h5&gt;
 
-&lt;p&gt;in iOS 5, Apple made it possible to go directly to the settings area you wanted with one URL call.
+&lt;p&gt;In iOS 5, Apple made it possible to go directly to the settings area you wanted with one URL call.
 This can be done in your own application using:&lt;/p&gt;
 
 &lt;figure role=code&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre class=&quot;line-numbers&quot;&gt;&lt;span class=&#8217;line&#8217;&gt;1&lt;/span&gt;
@@ -58,14 +58,16 @@ I don&amp;#8217;t know who first found these, but they have been well documented
 
 &lt;h5&gt;Try them out&lt;/h5&gt;
 
-&lt;p&gt;My latest app started out as a settings shortcut helper (i&amp;#8217;ve previously blogged about its inception) and I open-sourced the settings functionality of it.
-Swiping down into notification center and having your settings there is the easist use of these shortcuts IMHO, so if you are able to sign your own applications then I&amp;#8217;d recommend trying it out. If not, then the images should give you an idea of what I&amp;#8217;m talking about. &lt;a href=&quot;https://github.com/Burnsoft/Settings-Swipe/&quot; title=&quot;Settings Swipe&quot;&gt;Github - Settings Swipe&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;My latest app started out as a settings shortcut helper (I&amp;#8217;ve previously blogged about its inception) and I open-sourced the settings functionality of it.&lt;/p&gt;
+
+&lt;p&gt;Swiping down into notification center and having your settings there is the easist use of these shortcuts IMHO, so if you are able to sign your own applications then I&amp;#8217;d recommend trying it out. If not, then the images should give you an idea of what I&amp;#8217;m talking about. &lt;a href=&quot;https://github.com/Burnsoft/Settings-Swipe/&quot; title=&quot;Settings Swipe&quot;&gt;Github - Settings Swipe&lt;/a&gt;&lt;/p&gt;
 
 &lt;h5&gt;Enhancement request&lt;/h5&gt;
 
-&lt;p&gt;In the latest iOS 5.1 beta&amp;#8217;s these URL&amp;#8217;s are no longer available.&lt;br/&gt;
-Maybe they will make it in the next official release but their future is unknown. In the meantime we can try and show Apple that there is sufficient demand for this feature by requesting an enhancement request via their bugreporter.&lt;br/&gt;
-If you find them useful, please duplicate rdar://5864941&lt;br/&gt;
+&lt;p&gt;In the latest iOS 5.1 beta&amp;#8217;s, these URL&amp;#8217;s are no longer available.&lt;br/&gt;
+Maybe they will make it in the next official release but their future is unknown. In the meantime we can try and show Apple that there is sufficient demand for this feature by requesting an enhancement request via their bugreporter.&lt;/p&gt;
+
+&lt;p&gt;If you find them useful, please duplicate rdar://5864941&lt;br/&gt;
 The open radar comments are at &lt;a href=&quot;http://openradar.appspot.com/10198949/&quot; title=&quot;Open Radar&quot;&gt;Open Radar - URL scheme&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
