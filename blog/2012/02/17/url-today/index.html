@@ -5,10 +5,8 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: prefs URL - iOS Geek</title>
+  <title>URL today, gone tomorrow - iOS Settings - iOS Geek</title>
   <meta name="author" content="Nik Burns">
-  
-    <meta name="description" content="Category: prefs URL"/>
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +16,7 @@
 
   
 
-  <link rel="canonical" href="http://burnsoft.github.com/blogblog/categories/prefs-url/index.html"/>
+  <link rel="canonical" href="http://burnsoft.github.com/blog/blog/2012/02/17/url-today/"/>
   <link href="/blog/favicon.png" rel="shortcut icon" />
   <link href="/blog/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/blog/javascripts/modernizr-2.0.js"></script>
@@ -62,36 +60,141 @@
   <div id="main">
     <div id="content">
       <div>
-<article>
+<article class="hentry">
   
   <header>
-    <h1 class="entry-title">Category: Prefs URL</h1>
+    
+      <h1 class="entry-title">URL Today, Gone Tomorrow - iOS Settings</h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2012-02-17T23:30:00+00:00" pubdate  data-updated="true" >Feb 17<span>th</span>, 2012</time></p>
     
   </header>
+
+
+<div class="entry-content"><h6>How Many Taps?</h6>
+
+<p>I think that most iPhone users would agree that iOS settings are not the most user friendly of screens to navigate and by definition, I don&#8217;t think that they can be, as they cover tweaks and tunings that the average user won&#8217;t even know are possible. That&#8217;s not to say that settings are never visited; I just think that if a way was found to make it easier for a user to toggle their wifi/bluetooth or turn off 3G, then it would be embraced by users and developers alike.</p>
+
+<p>Currently if you want to toggle your bluetooth settings, assuming you are already on your homescreen…</p>
+
+<ol>
+<li>Tap Settings</li>
+<li>Scroll to General</li>
+<li>Tap Bluetooth</li>
+<li>Toggle button</li>
+</ol>
+
+
+<p>How about turn off your 3G connection…</p>
+
+<ol>
+<li>Tap Settings</li>
+<li>Scroll to General</li>
+<li>Tap Network</li>
+<li>Toggle 3G</li>
+</ol>
+
+
+<p>Most things are 4 screens away. If an app used bluetooth and bluetooth was switched off, then the user would be asked to quit the app and follow the above instructions. It would be a lot easier and cleaner from a usability point of view if an app could send the user directly to the bluetooth settings, if the user so chose.</p>
+
+<h5>Please give a warm welcome</h5>
+
+<p>in iOS 5, Apple made it possible to go directly to the settings area you wanted with one URL call.
+This can be done in your own application using:</p>
+
+<figure role=code><div class="highlight"><table cellpadding="0" cellspacing="0"><tr><td class="gutter"><pre class="line-numbers"><span class='line'>1</span>
+</pre></td><td class='code' width='100%'><pre><code class=''><div class='line'>[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"prefs:root=TWITTER"]];</div></code></pre></td></tr></table></div></figure>
+
+
+<p>
+or the URL could be called from within mobile Safari.<br/>
+I don&#8217;t know who first found these, but they have been well documented and a quick google for &#8216;iOS settings URL scheme&#8217; finds various sources of information.</p>
+
+<h5>Try them out</h5>
+
+<p>My latest app started out as a settings shortcut helper (i&#8217;ve previously blogged about its inception) and I open-sourced the settings functionality of it.
+Swiping down into notification center and having your settings there is the easist use of these shortcuts IMHO, so if you are able to sign your own applications then I&#8217;d recommend trying it out. If not, then the images should give you an idea of what I&#8217;m talking about. <a href="https://github.com/Burnsoft/Settings-Swipe/" title="Settings Swipe">Github - Settings Swipe</a></p>
+
+<h5>Enhancement request</h5>
+
+<p>In the latest iOS 5.1 beta&#8217;s these URL&#8217;s are no longer available.<br/>
+Maybe they will make it in the next official release but their future is unknown. In the meantime we can try and show Apple that there is sufficient demand for this feature by requesting an enhancement request via their bugreporter.<br/>
+If you find them useful, please duplicate rdar://5864941<br/>
+The open radar comments are at <a href="http://openradar.appspot.com/10198949/" title="Open Radar">Open Radar - URL scheme</a></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
   
-  <div id="blog-archives" class="category">
+
+<span class="byline author vcard">Posted by <span class="fn">Nik Burns</span></span>
+
+      
+
+
 
 
 
   
-  <h2>2011</h2>
 
-<article>
+
+
+<time datetime="2012-02-17T23:30:00+00:00" pubdate  data-updated="true" >Feb 17<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
   
-<h1><a href="/blog/blog/2011/12/20/iprefs-to-app-swipe-to-review-to-nowhere-dot-dot-dot/">iPrefs to App Swipe to Review to Nowhere....</a></h1>
-<time datetime="2011-12-20T14:40:00+00:00" pubdate><span class='month'>Dec</span> <span class='day'>20</span> <span class='year'>2011</span></time>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://burnsoft.github.com/blog/blog/2012/02/17/url-today/" data-via="burnsoft" data-counturl="http://burnsoft.github.com/blog/blog/2012/02/17/url-today/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+ 
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/blog/categories/app-review/'>app review</a>, <a class='category' href='/blog/blog/categories/ios5/'>ios5</a>, <a class='category' href='/blog/blog/categories/prefs-url/'>prefs URL</a>, <a class='category' href='/blog/blog/categories/scheme/'>scheme</a></span>
-</footer>
+  <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
 
-
-</article>
+  
 
 </div>
 
-  
+    
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread"><div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'burnsoft';
+  var disqus_identifier = 'http://burnsoft.github.com/blog/blog/2012/02/17/url-today/';
+  var disqus_url = 'http://burnsoft.github.com/blog/blog/2012/02/17/url-today/';
+  //var disqus_developer = 1;
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
