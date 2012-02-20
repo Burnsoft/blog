@@ -4,7 +4,7 @@
   <title>iOS Geek</title>
   <link href="http://burnsoft.github.com/blog/atom.xml" rel="self"/>
   <link href="http://burnsoft.github.com/blog/"/>
-  <updated>2012-02-20T20:53:23+00:00</updated>
+  <updated>2012-02-20T22:06:57+00:00</updated>
   <id>http://burnsoft.github.com/blog/</id>
   <author>
     <name>Nik Burns</name>
@@ -149,10 +149,11 @@ This kickstarted the &amp;#8216;move to live&amp;#8217; process and App Swipe wa
 
 &lt;h5&gt;Updates&lt;/h5&gt;
 
-&lt;p&gt;-11th February - App Swipe 1.2 is still awaiting review.&lt;/p&gt;
+&lt;p&gt;-11th February - App Swipe 1.2 submitted for review. Includes a new look and notifications for task reminders.&lt;/p&gt;
 
-&lt;p&gt;-19th February  App Swipe 1.2 was rejected. Knowing that just a slight variation in how I was handling notifications could be the reason I&amp;#8217;m not yet on the store, I took another look at how App Swipe handled various scenarios in relation to the latest rejection reason&lt;br/&gt;
-&lt;strong&gt;&lt;em&gt;It would be appropriate to remove any functionality that includes, or enables the user to create, shortcuts to the Notification Center. &lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;-19th February  App Swipe 1.2 was rejected. Knowing that just a slight variation in how I was handling notifications could be the reason I&amp;#8217;m not yet on the store, I took another look at how App Swipe handled various scenarios in relation to the latest rejection reason&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;It would be appropriate to remove any functionality that includes, or enables the user to create, shortcuts to the Notification Center. &lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Initially I was baffled, then after further testing and re-reading of the rejection reason, Apples use of shortcuts in the plural jumped out at me. If a user had created multiple reminders and not fired them in notification center then they had effectively a number of application shortcuts ready to be used. So I changed the code to remove additional notifications when the app was launched directly or via a notification. Fingers crossed this will be acceptable.&lt;/p&gt;
 
